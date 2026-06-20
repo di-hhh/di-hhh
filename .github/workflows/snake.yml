@@ -1,0 +1,39 @@
+# 生成 GitHub 提交记录贪吃蛇动画 (Snake Graph)
+# 使用 Platane/snk 读取提交记录生成 SVG，并推送到 output 孤立分支。
+name: Snake Animation
+
+on:
+  # 每天 UTC 午夜自动运行
+  schedule:
+    - cron: "0 0 * * *"
+  # 允许手动触发
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Generate snake SVG
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate snake SVG from contribution graph
+        uses: Platane/snk/svg-only@v3
+        with:
+          # 读取仓库所有者的提交记录
+          github_user_name: ${{ github.repository_owner }}
+          # 生成的两个 SVG 文件（亮色 / 暗色配色）
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Push SVG to the output orphan branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          # 推送到名为 output 的孤立分支
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+          allow_empty_commit: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
