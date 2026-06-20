@@ -1,4 +1,4 @@
-## Hi there 👋
+## It's Di Huang.
 
 <!-- ===== 贪吃蛇动画 (Snake Graph) ===== -->
 <!-- 图片由 .github/workflows/snake.yml 生成并推送到 output 分支 -->
