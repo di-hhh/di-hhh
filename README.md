@@ -13,11 +13,20 @@
 <!--START_SECTION:waka-->
 
 ```true
-From: 13 June 2026 - To: 20 June 2026
+From: 14 June 2026 - To: 21 June 2026
 
-Total Time: 0 secs
+Total Time: 5 hrs 33 mins
 
-No activity tracked
+Markdown     3 hrs 8 mins          ██████████████░░░░░░░░░░░   56.06 %
+Python       1 hr 15 mins          █████▓░░░░░░░░░░░░░░░░░░░   22.42 %
+Java         16 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   04.86 %
+YAML         11 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.55 %
+Bash         10 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.18 %
+JavaScript   6 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.99 %
+Git Config   6 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.90 %
+Groovy       4 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
+TOML         4 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.24 %
+JSON         3 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.04 %
 ```
 
 <!--END_SECTION:waka-->
