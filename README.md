@@ -11,11 +11,18 @@
 <!-- ===== WakaTime 代码语言时长统计 ===== -->
 <!-- 内容由 .github/workflows/wakatime.yml 自动填充，请勿手动编辑占位符之间的内容 -->
 <!--START_SECTION:waka-->
-📊 **本周编码统计**（2026-06-15 ~ 2026-06-22）
+📊 **本周编码统计**（2026-06-15 ~ 2026-06-22）  
 
-⏱️ **总时长:** 6 hrs 59 mins  ·  **日均:** 1 hr 23 mins  ·  ⭐ **最佳日:** Sun Jun 21 — 3 hrs 31 mins
+<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-activity.svg" width="600" alt="每日编码时间" />  
 
-**📝 语言**
+⏱️ **总时长:** 6 hrs 59 mins  
+📅 **日均:** 1 hr 23 mins  
+⭐ **最佳日:** Sun Jun 21 — 3 hrs 31 mins  
+
+<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ai-vs-human.svg" width="460" alt="AI vs 人工编码" />  
+
+
+**📝 语言**  
 Markdown    ████████▓░░░░░░░░░░░  42.53%  2 hrs 59 mins  
 Python      ████░░░░░░░░░░░░░░░░  18.25%  1 hr 17 mins  
 Java        ███▓░░░░░░░░░░░░░░░░  17.49%  1 hr 13 mins  
@@ -27,12 +34,20 @@ Bash        ▓░░░░░░░░░░░░░░░░░░░   2.54%
 JSON        ▓░░░░░░░░░░░░░░░░░░░   1.93%  8 mins  
 Groovy      ▒░░░░░░░░░░░░░░░░░░░   1.27%  5 mins  
 
-**💻 编辑器**
+
+**💻 编辑器**  
 VS Code      █████████████████░░░  83.73%  5 hrs 54 mins  
 Claude Code  ███▒░░░░░░░░░░░░░░░░  16.27%  1 hr 8 mins  
 
-**🖥️ 操作系统**
+
+**🖥️ 操作系统**  
 Windows  ████████████████████  100.00%  7 hrs 2 mins  
+
+
+**📂 活动类别**  
+AI Coding     ████████████████░░░░  80.60%  5 hrs 40 mins  
+Writing Docs  ███░░░░░░░░░░░░░░░░░  15.34%  1 hr 4 mins  
+Coding        █░░░░░░░░░░░░░░░░░░░   4.06%  17 mins  
 <!--END_SECTION:waka-->
 
 <!-- ===== 年度进度条 (Year Progress) ===== -->

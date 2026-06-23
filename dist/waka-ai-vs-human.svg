@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 160" width="460" height="160" role="img">
+<style>
+  .add { fill: #10b981; rx: 3; } .del { fill: #ef4444; rx: 3; }
+  .glabel { fill: #374151; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,sans-serif; text-anchor: middle; }
+  .gval { fill: #6b7280; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,sans-serif; text-anchor: middle; }
+  .title { fill: #111827; font-size: 13px; font-weight: 600; font-family: -apple-system,BlinkMacSystemFont,sans-serif; }
+  .legend { fill: #374151; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,sans-serif; }
+</style>
+<text x="64" y="18" class="title">🤖 AI vs 人工编码（新增/删除行数）</text>
+<rect x="64" y="28" width="10" height="10" class="add"/>
+<text x="78" y="36" class="legend">新增</text>
+<rect x="108" y="28" width="10" height="10" class="del"/>
+<text x="122" y="36" class="legend">删除</text>
+<rect x="70.0" y="24.0" width="42.5" height="96.0" class="add"><title>ai_add: 14664</title></rect>
+<text x="91.2" y="20.0" class="gval">14664</text>
+<rect x="163.0" y="116.9" width="42.5" height="3.1" class="del"><title>ai_del: 476</title></rect>
+<text x="184.2" y="112.9" class="gval">476</text>
+<rect x="256.0" y="119.8" width="42.5" height="0.2" class="add"><title>hu_add: 35</title></rect>
+<text x="277.2" y="115.8" class="gval">35</text>
+<rect x="349.0" y="119.7" width="42.5" height="0.3" class="del"><title>hu_del: 46</title></rect>
+<text x="370.2" y="115.7" class="gval">46</text>
+<text x="91.2" y="146" class="glabel">AI 新增</text>
+<text x="184.2" y="146" class="glabel">AI 删除</text>
+<text x="277.2" y="146" class="glabel">人工新增</text>
+<text x="370.2" y="146" class="glabel">人工删除</text>
+<text x="64" y="158" class="legend">Tokens: 73.3M in / 189.5K out   ·   AI 会话: 9   ·   预估费用: $203.90</text>
+</svg>

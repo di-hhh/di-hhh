@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img">
+<style>
+  .bar { fill: #3b82f6; rx: 3; }
+  .bar:hover { fill: #2563eb; }
+  .grid { stroke: #e5e7eb; stroke-width: 0.5; }
+  .tick { fill: #6b7280; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,sans-serif; }
+  .label { fill: #374151; font-size: 11px; font-family: -apple-system,BlinkMacSystemFont,sans-serif; text-anchor: middle; }
+  .title { fill: #111827; font-size: 13px; font-weight: 600; font-family: -apple-system,BlinkMacSystemFont,sans-serif; }
+  .val { fill: #6b7280; font-size: 10px; font-family: -apple-system,BlinkMacSystemFont,sans-serif; text-anchor: middle; }
+</style>
+<text x="52" y="18" class="title">📅 每日编码时间</text>
+<line x1="52" y1="168.0" x2="588" y2="168.0" class="grid"/>
+<text x="46" y="171.0" class="tick" text-anchor="end">0.0h</text>
+<line x1="52" y1="132.0" x2="588" y2="132.0" class="grid"/>
+<text x="46" y="135.0" class="tick" text-anchor="end">1.2h</text>
+<line x1="52" y1="96.0" x2="588" y2="96.0" class="grid"/>
+<text x="46" y="99.0" class="tick" text-anchor="end">2.3h</text>
+<line x1="52" y1="60.0" x2="588" y2="60.0" class="grid"/>
+<text x="46" y="63.0" class="tick" text-anchor="end">3.5h</text>
+<line x1="52" y1="24.0" x2="588" y2="24.0" class="grid"/>
+<text x="46" y="27.0" class="tick" text-anchor="end">4.6h</text>
+<rect x="57.0" y="164.8" width="68" height="3.2" class="bar"><title>06-17: 0.1h</title></rect>
+<text x="91.0" y="160.8" class="val">6m</text>
+<text x="91.0" y="190" class="label">06-17</text>
+<rect x="135.0" y="168.0" width="68" height="0.0" class="bar"><title>06-18: 0.0h</title></rect>
+<text x="169.0" y="190" class="label">06-18</text>
+<rect x="213.0" y="162.1" width="68" height="5.9" class="bar"><title>06-19: 0.2h</title></rect>
+<text x="247.0" y="158.1" class="val">11m</text>
+<text x="247.0" y="190" class="label">06-19</text>
+<rect x="291.0" y="140.8" width="68" height="27.2" class="bar"><title>06-20: 0.9h</title></rect>
+<text x="325.0" y="136.8" class="val">52m</text>
+<text x="325.0" y="190" class="label">06-20</text>
+<rect x="369.0" y="57.9" width="68" height="110.1" class="bar"><title>06-21: 3.5h</title></rect>
+<text x="403.0" y="53.9" class="val">3.5h</text>
+<text x="403.0" y="190" class="label">06-21</text>
+<rect x="447.0" y="94.1" width="68" height="73.9" class="bar"><title>06-22: 2.4h</title></rect>
+<text x="481.0" y="90.1" class="val">2.4h</text>
+<text x="481.0" y="190" class="label">06-22</text>
+<rect x="525.0" y="24.0" width="68" height="144.0" class="bar"><title>06-23: 4.6h</title></rect>
+<text x="559.0" y="20.0" class="val">4.6h</text>
+<text x="559.0" y="190" class="label">06-23</text>
+</svg>
