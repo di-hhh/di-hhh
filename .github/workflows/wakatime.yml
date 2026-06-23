@@ -1,5 +1,6 @@
-# 使用 WakaTime API 在 README 中绘制代码语言时长统计进度条
-# 通过 athul/waka-readme action 自动抓取并写回 README.md。
+# 通过 update_waka.py 调用 WakaTime stats API 拉取多维度编码统计，
+# 格式化为 markdown 后写回 README.md 中指定占位符之间。
+# 取代了早前的 athul/waka-readme action — 现在可展示语言、编辑器及操作系统分布。
 name: WakaTime Stats
 
 on:
@@ -18,20 +19,27 @@ jobs:
     name: Update WakaTime stats
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v7
+      - name: Checkout repository
+        uses: actions/checkout@v7
 
-      - name: Update README with WakaTime stats
-        uses: athul/waka-readme@master
+      - name: Set up Python
+        uses: actions/setup-python@v6
         with:
-          # GH_TOKEN 默认使用 github.token，profile 仓库无需额外 PAT
+          python-version: "3.x"
+
+      - name: Fetch stats & update README
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          SHOW_TITLE: true
-          SECTION_NAME: waka
-          BLOCKS: ░▒▓█
-          CODE_LANG: true
-          TIME_RANGE: last_7_days
-          LANG_COUNT: 10
-          SHOW_TIME: true
-          SHOW_TOTAL: true
-          SHOW_MASKED_TIME: false
-          COMMIT_MESSAGE: "chore: update waka-readme stats"
+        run: python update_waka.py
+
+      - name: Commit if README changed
+        run: |
+          if git diff --quiet README.md; then
+            echo "No changes to README.md, skipping commit."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore: update wakatime stats"
+            git push
+          fi
