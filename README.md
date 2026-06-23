@@ -11,6 +11,32 @@
 <!-- ===== WakaTime Stats ===== -->
 <!-- Auto-filled by .github/workflows/wakatime.yml via update_waka.py -->
 <!--START_SECTION:waka-->
+📊 **Weekly Coding Stats**（2026-06-15 ~ 2026-06-22）  
+
+<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-activity.svg" width="600" alt="Daily Coding Activity"/>  
+
+⏱️ **Total:** 6 hrs 59 mins  
+📅 **Daily Average:** 1 hr 23 mins  
+⭐ **Best Day:** Sun Jun 21 — 3 hrs 31 mins  
+
+<table><tr><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-ai.svg" width="280" alt="🤖 AI vs Manual Coding"/></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-editors.svg" width="280" alt="💻 Editors"/></td></tr></table>
+
+<table><tr><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-os.svg" width="280" alt="🖥️ Operating Systems"/></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-categories.svg" width="280" alt="📂 Categories"/></td></tr></table>
+
+🤖 **AI Details:** 14.7K lines added / 476 deleted  ·  Tokens: 73.3M in / 189.5K out  ·  Sessions: 9  ·  Est. cost: $203.90  
+
+
+**📝 Languages**  
+Markdown    ████████▓░░░░░░░░░░░  42.53%  2 hrs 59 mins  
+Python      ████░░░░░░░░░░░░░░░░  18.25%  1 hr 17 mins  
+Java        ███▓░░░░░░░░░░░░░░░░  17.49%  1 hr 13 mins  
+JavaScript  █░░░░░░░░░░░░░░░░░░░   3.37%  14 mins  
+C#          ▓░░░░░░░░░░░░░░░░░░░   2.90%  12 mins  
+YAML        ▓░░░░░░░░░░░░░░░░░░░   2.83%  11 mins  
+Git Config  ▓░░░░░░░░░░░░░░░░░░░   2.72%  11 mins  
+Bash        ▓░░░░░░░░░░░░░░░░░░░   2.54%  10 mins  
+JSON        ▓░░░░░░░░░░░░░░░░░░░   1.93%  8 mins  
+Groovy      ▒░░░░░░░░░░░░░░░░░░░   1.27%  5 mins  
 <!--END_SECTION:waka-->
 
 <!-- ===== Year Progress ===== -->
