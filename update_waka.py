@@ -135,8 +135,9 @@ def format_section(
         percent = item.get("percent", 0.0)
         text = item.get("text", "?")
         bar = render_bar(percent)
+        # 行尾两个空格 → Markdown 渲染时产生 <br> 硬换行
         lines.append(
-            f"{name:<{max_name}}  {bar}  {percent:5.2f}%  {text}"
+            f"{name:<{max_name}}  {bar}  {percent:5.2f}%  {text}  "
         )
     return "\n".join(lines)
 
