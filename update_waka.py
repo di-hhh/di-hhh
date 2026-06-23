@@ -74,10 +74,26 @@ def render_bar(percent: float, width: int = BAR_WIDTH) -> str:
 
 
 def format_date_range(stats: dict) -> str:
-    """从 API 返回体中提取并格式化日期范围。"""
+    """从 API 返回体中提取并格式化日期范围。
+
+    兼容两种返回格式：
+      - range 是对象   → 取 range.start_date / range.end_date
+      - range 是字符串 → 回退到顶层 start / end（ISO 8601 截取日期部分）
+    """
     rng = stats.get("range", {})
-    start = rng.get("start_date", "?")
-    end = rng.get("end_date", "?")
+    if isinstance(rng, str):
+        rng = {}  # 字符串无法 .get()，替换为空字典走回退逻辑
+
+    start = rng.get("start_date", "")
+    end = rng.get("end_date", "")
+
+    # 回退：从顶层 ISO 时间戳提取日期
+    if not start:
+        start_iso = stats.get("start", "")
+        start = start_iso[:10] if start_iso else "?"
+    if not end:
+        end_iso = stats.get("end", "")
+        end = end_iso[:10] if end_iso else "?"
     return f"{start} ~ {end}"
 
 
