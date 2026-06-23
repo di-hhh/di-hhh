@@ -13,11 +13,20 @@
 <!--START_SECTION:waka-->
 
 ```true
-From: 13 June 2026 - To: 20 June 2026
+From: 15 June 2026 - To: 22 June 2026
 
-Total Time: 0 secs
+Total Time: 6 hrs 59 mins
 
-No activity tracked
+Markdown          2 hrs 59 mins         ██████████▓░░░░░░░░░░░░░░   42.53 %
+Python            1 hr 17 mins          ████▓░░░░░░░░░░░░░░░░░░░░   18.25 %
+Java              1 hr 13 mins          ████▒░░░░░░░░░░░░░░░░░░░░   17.49 %
+JavaScript        14 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   03.37 %
+C#                12 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.90 %
+YAML              11 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.83 %
+Git Config        11 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.72 %
+Bash              10 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.54 %
+JSON              8 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.93 %
+Groovy            5 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.27 %
 ```
 
 <!--END_SECTION:waka-->
@@ -25,8 +34,8 @@ No activity tracked
 <!-- ===== 年度进度条 (Year Progress) ===== -->
 <!-- 内容由 .github/workflows/year-progress.yml 通过 update_progress.py 自动填充 -->
 <!-- YEAR_PROGRESS_START -->
-⏳ Year Progress [█████████░░░░░░░░░░░] 46.77 %
-⏰ Updated on Sat, 20 Jun 2026 16:46:20 UTC
+⏳ Year Progress [█████████░░░░░░░░░░░] 47.43 %
+⏰ Updated on Tue, 23 Jun 2026 02:41:38 UTC
 <!-- YEAR_PROGRESS_END -->
 
 <!--
