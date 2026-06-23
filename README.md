@@ -25,18 +25,7 @@
 
 🤖 **AI Details:** 14.7K lines added / 476 deleted  ·  Tokens: 73.3M in / 189.5K out  ·  Sessions: 9  ·  Est. cost: $203.90  
 
-
-**📝 Languages**  
-Markdown    ████████▓░░░░░░░░░░░  42.53%  2 hrs 59 mins  
-Python      ████░░░░░░░░░░░░░░░░  18.25%  1 hr 17 mins  
-Java        ███▓░░░░░░░░░░░░░░░░  17.49%  1 hr 13 mins  
-JavaScript  █░░░░░░░░░░░░░░░░░░░   3.37%  14 mins  
-C#          ▓░░░░░░░░░░░░░░░░░░░   2.90%  12 mins  
-YAML        ▓░░░░░░░░░░░░░░░░░░░   2.83%  11 mins  
-Git Config  ▓░░░░░░░░░░░░░░░░░░░   2.72%  11 mins  
-Bash        ▓░░░░░░░░░░░░░░░░░░░   2.54%  10 mins  
-JSON        ▓░░░░░░░░░░░░░░░░░░░   1.93%  8 mins  
-Groovy      ▒░░░░░░░░░░░░░░░░░░░   1.27%  5 mins  
+<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-langs.svg" width="600" alt="📝 Languages"/>
 <!--END_SECTION:waka-->
 
 <!-- ===== Year Progress ===== -->
