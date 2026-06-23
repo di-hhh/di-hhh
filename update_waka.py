@@ -36,32 +36,13 @@ API_BASE = "https://wakatime.com"
 STATS_PATH = "/api/v1/users/current/stats/last_7_days"
 SUMMARIES_PATH = "/api/v1/users/current/summaries?range=last_7_days"
 
-BAR_WIDTH = 20
-GRADIENT = "░▒▓█"
-GRADIENT_N = len(GRADIENT)
+LANG_LIMIT = 10
 
-# Color palette for ring charts
+# Color palette for charts
 PALETTE = ["#3b82f6", "#10b981", "#f59e0b", "#ef4444", "#8b5cf6",
            "#06b6d4", "#f97316", "#84cc16", "#ec4899", "#6366f1"]
 
-LANG_LIMIT = 10
-CATEGORY_LIMIT = 5
-
 # ── Helpers ──────────────────────────────────────────────────────────────
-
-def render_bar(percent: float) -> str:
-    """4-level gradient bar: ░ → ▒ → ▓ → █."""
-    total = BAR_WIDTH * GRADIENT_N
-    filled = round(percent / 100.0 * total)
-    filled = max(0, min(total, filled))
-    chars = []
-    for i in range(BAR_WIDTH):
-        c = filled - i * GRADIENT_N
-        if c <= 0:      chars.append(GRADIENT[0])
-        elif c >= GRADIENT_N: chars.append(GRADIENT[-1])
-        else:           chars.append(GRADIENT[c])
-    return "".join(chars)
-
 
 def date_range(stats: dict[str, Any]) -> str:
     rng = stats.get("range", {})
@@ -85,22 +66,6 @@ def best_day(stats: dict[str, Any]) -> str:
         pass
     return f"{ds} — {ts}"
 
-
-def text_section(emoji: str, title: str, items: list[dict[str, Any]], limit: int) -> str:
-    """Text bar section. Two trailing spaces on each line = markdown <br>."""
-    lines = [f"\n**{emoji} {title}**  "]
-    if not items:
-        lines.append("_No data_")
-        return "\n".join(lines)
-    visible = items[:limit]
-    w = max(len(it.get("name", "?")) for it in visible)
-    for it in visible:
-        name = it.get("name", "?")
-        pct = it.get("percent", 0.0)
-        txt = it.get("text", "?")
-        bar = render_bar(pct)
-        lines.append(f"{name:<{w}}  {bar}  {pct:5.2f}%  {txt}  ")
-    return "\n".join(lines)
 
 
 # ── API ──────────────────────────────────────────────────────────────────
@@ -279,6 +244,82 @@ def _fmt_num(n: int) -> str:
     return str(n)
 
 
+def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
+                    filename: str) -> str | None:
+    """Horizontal stacked bar — each segment is a language, colored by PALETTE.
+
+    items: [(name, percent, time_text), ...]
+    Returns the markdown <img> tag, or None if there are no items.
+    """
+    if not items:
+        return None
+
+    W, H = 600, 150
+    bar_x, bar_y, bar_w, bar_h = 16, 36, 568, 24
+    legend_y = bar_y + bar_h + 20
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
+        f'width="{W}" height="{H}" role="img">',
+        '<style>',
+        '.tt{fill:#111827;font-size:13px;font-weight:600;font-family:system-ui,sans-serif}',
+        '.sw{fill:#374151;font-size:10px;font-family:system-ui,sans-serif}',
+        '.sp{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}',
+        '.st{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}',
+        '</style>',
+        f'<text x="16" y="20" class="tt">{title}</text>',
+    ]
+
+    # Segments
+    x = bar_x
+    for i, (name, pct, time_txt) in enumerate(items):
+        if pct <= 0:
+            continue
+        seg_w = pct / 100.0 * bar_w
+        if seg_w < 1:
+            continue
+        color = PALETTE[i % len(PALETTE)]
+        parts.append(
+            f'<rect x="{x:.1f}" y="{bar_y}" width="{seg_w:.2f}" height="{bar_h}" '
+            f'fill="{color}" rx="0">'
+            f'<title>{name}: {pct:.1f}% ({time_txt})</title></rect>'
+        )
+        # Label inside segment if wide enough
+        if seg_w > 40:
+            parts.append(
+                f'<text x="{x + seg_w/2:.1f}" y="{bar_y + bar_h/2 + 4:.1f}" '
+                f'text-anchor="middle" fill="#fff" font-size="10" '
+                f'font-family="system-ui,sans-serif" font-weight="600">{pct:.1f}%</text>'
+            )
+        x += seg_w
+
+    # Bar outline
+    parts.append(
+        f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" '
+        f'fill="none" stroke="#d1d5db" stroke-width="1" rx="4"/>'
+    )
+
+    # Legend — two columns if > 5 items
+    n = len(items)
+    cols = 2 if n > 5 else 1
+    per_col = (n + cols - 1) // cols
+    for i, (name, pct, time_txt) in enumerate(items):
+        col = i // per_col
+        row = i % per_col
+        lx = 16 + col * (W // 2)
+        ly = legend_y + row * 15
+        color = PALETTE[i % len(PALETTE)]
+        parts.append(f'<rect x="{lx}" y="{ly - 5}" width="8" height="8" rx="2" fill="{color}"/>')
+        parts.append(f'<text x="{lx + 12}" y="{ly + 2}" class="sw">{name}</text>')
+        parts.append(f'<text x="{lx + 12 + 110}" y="{ly + 2}" class="sp">{pct:.1f}%</text>')
+        parts.append(f'<text x="{lx + 12 + 150}" y="{ly + 2}" class="st">{time_txt}</text>')
+
+    parts.append("</svg>")
+    svg = "\n".join(parts)
+    _save_svg(filename, svg)
+    return f'<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/{filename}" width="{W}" alt="{title}"/>'
+
+
 def _ring_pair(chart_a: str | None, chart_b: str | None) -> str:
     """Wrap two <img> tags in an HTML table row so they display side by side."""
     a = chart_a or ""
@@ -362,8 +403,12 @@ def build_block(stats: dict[str, Any], days: list[dict[str, Any]] | None) -> str
     )
     lines.append("")
 
-    # ── Languages (text bars) ──
-    lines.append(text_section("📝", "Languages", stats.get("languages", []), LANG_LIMIT))
+    # ── Languages (stacked bar chart) ──
+    langs = stats.get("languages", [])
+    lang_items = [(l.get("name", "?"), l.get("percent", 0.0), l.get("text", "?")) for l in langs[:LANG_LIMIT]]
+    lang_svg = svg_stacked_bar("📝 Languages", lang_items, "waka-langs.svg")
+    if lang_svg:
+        lines.append(lang_svg)
 
     return "\n".join(lines)
 
