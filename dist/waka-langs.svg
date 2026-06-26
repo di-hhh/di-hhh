@@ -6,61 +6,61 @@
 .st{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
-<rect x="16.0" y="36" width="149.72" height="24" fill="#3b82f6" rx="0"><title>Markdown: 26.4% (3 hrs 46 mins)</title></rect>
-<text x="90.9" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">26.4%</text>
-<rect x="165.7" y="36" width="104.63" height="24" fill="#10b981" rx="0"><title>Jupyter: 18.4% (2 hrs 38 mins)</title></rect>
-<text x="218.0" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">18.4%</text>
-<rect x="270.4" y="36" width="73.27" height="24" fill="#f59e0b" rx="0"><title>Java: 12.9% (1 hr 51 mins)</title></rect>
-<text x="307.0" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">12.9%</text>
-<rect x="343.6" y="36" width="71.17" height="24" fill="#ef4444" rx="0"><title>Python: 12.5% (1 hr 47 mins)</title></rect>
-<text x="379.2" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">12.5%</text>
-<rect x="414.8" y="36" width="56.91" height="24" fill="#8b5cf6" rx="0"><title>C#: 10.0% (1 hr 26 mins)</title></rect>
-<text x="443.2" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">10.0%</text>
-<rect x="471.7" y="36" width="42.09" height="24" fill="#06b6d4" rx="0"><title>JavaScript: 7.4% (1 hr 3 mins)</title></rect>
-<text x="492.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">7.4%</text>
-<rect x="513.8" y="36" width="21.36" height="24" fill="#f97316" rx="0"><title>JSON: 3.8% (32 mins)</title></rect>
-<rect x="535.2" y="36" width="12.72" height="24" fill="#84cc16" rx="0"><title>YAML: 2.2% (19 mins)</title></rect>
-<rect x="547.9" y="36" width="10.39" height="24" fill="#ec4899" rx="0"><title>Git Config: 1.8% (15 mins)</title></rect>
-<rect x="558.3" y="36" width="7.27" height="24" fill="#6366f1" rx="0"><title>Bash: 1.3% (11 mins)</title></rect>
+<rect x="16.0" y="36" width="138.08" height="24" fill="#3b82f6" rx="0"><title>C++: 24.3% (4 hrs 43 mins)</title></rect>
+<text x="85.0" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">24.3%</text>
+<rect x="154.1" y="36" width="110.42" height="24" fill="#10b981" rx="0"><title>Markdown: 19.4% (3 hrs 46 mins)</title></rect>
+<text x="209.3" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">19.4%</text>
+<rect x="264.5" y="36" width="77.19" height="24" fill="#f59e0b" rx="0"><title>Jupyter: 13.6% (2 hrs 38 mins)</title></rect>
+<text x="303.1" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">13.6%</text>
+<rect x="341.7" y="36" width="54.93" height="24" fill="#ef4444" rx="0"><title>Java: 9.7% (1 hr 52 mins)</title></rect>
+<text x="369.2" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">9.7%</text>
+<rect x="396.6" y="36" width="52.48" height="24" fill="#8b5cf6" rx="0"><title>Python: 9.2% (1 hr 47 mins)</title></rect>
+<text x="422.9" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">9.2%</text>
+<rect x="449.1" y="36" width="51.97" height="24" fill="#06b6d4" rx="0"><title>C#: 9.2% (1 hr 46 mins)</title></rect>
+<text x="475.1" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600">9.2%</text>
+<rect x="501.1" y="36" width="31.01" height="24" fill="#f97316" rx="0"><title>JavaScript: 5.5% (1 hr 3 mins)</title></rect>
+<rect x="532.1" y="36" width="15.73" height="24" fill="#84cc16" rx="0"><title>JSON: 2.8% (32 mins)</title></rect>
+<rect x="547.8" y="36" width="9.37" height="24" fill="#ec4899" rx="0"><title>YAML: 1.6% (19 mins)</title></rect>
+<rect x="557.2" y="36" width="7.67" height="24" fill="#6366f1" rx="0"><title>Git Config: 1.4% (15 mins)</title></rect>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6"/>
-<text x="28" y="82" class="sw">Markdown</text>
-<text x="138" y="82" class="sp">26.4%</text>
-<text x="178" y="82" class="st">3 hrs 46 mins</text>
+<text x="28" y="82" class="sw">C++</text>
+<text x="138" y="82" class="sp">24.3%</text>
+<text x="178" y="82" class="st">4 hrs 43 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981"/>
-<text x="28" y="97" class="sw">Jupyter</text>
-<text x="138" y="97" class="sp">18.4%</text>
-<text x="178" y="97" class="st">2 hrs 38 mins</text>
+<text x="28" y="97" class="sw">Markdown</text>
+<text x="138" y="97" class="sp">19.4%</text>
+<text x="178" y="97" class="st">3 hrs 46 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b"/>
-<text x="28" y="112" class="sw">Java</text>
-<text x="138" y="112" class="sp">12.9%</text>
-<text x="178" y="112" class="st">1 hr 51 mins</text>
+<text x="28" y="112" class="sw">Jupyter</text>
+<text x="138" y="112" class="sp">13.6%</text>
+<text x="178" y="112" class="st">2 hrs 38 mins</text>
 <rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444"/>
-<text x="28" y="127" class="sw">Python</text>
-<text x="138" y="127" class="sp">12.5%</text>
-<text x="178" y="127" class="st">1 hr 47 mins</text>
+<text x="28" y="127" class="sw">Java</text>
+<text x="138" y="127" class="sp">9.7%</text>
+<text x="178" y="127" class="st">1 hr 52 mins</text>
 <rect x="16" y="135" width="8" height="8" rx="2" fill="#8b5cf6"/>
-<text x="28" y="142" class="sw">C#</text>
-<text x="138" y="142" class="sp">10.0%</text>
-<text x="178" y="142" class="st">1 hr 26 mins</text>
+<text x="28" y="142" class="sw">Python</text>
+<text x="138" y="142" class="sp">9.2%</text>
+<text x="178" y="142" class="st">1 hr 47 mins</text>
 <rect x="316" y="75" width="8" height="8" rx="2" fill="#06b6d4"/>
-<text x="328" y="82" class="sw">JavaScript</text>
-<text x="438" y="82" class="sp">7.4%</text>
-<text x="478" y="82" class="st">1 hr 3 mins</text>
+<text x="328" y="82" class="sw">C#</text>
+<text x="438" y="82" class="sp">9.2%</text>
+<text x="478" y="82" class="st">1 hr 46 mins</text>
 <rect x="316" y="90" width="8" height="8" rx="2" fill="#f97316"/>
-<text x="328" y="97" class="sw">JSON</text>
-<text x="438" y="97" class="sp">3.8%</text>
-<text x="478" y="97" class="st">32 mins</text>
+<text x="328" y="97" class="sw">JavaScript</text>
+<text x="438" y="97" class="sp">5.5%</text>
+<text x="478" y="97" class="st">1 hr 3 mins</text>
 <rect x="316" y="105" width="8" height="8" rx="2" fill="#84cc16"/>
-<text x="328" y="112" class="sw">YAML</text>
-<text x="438" y="112" class="sp">2.2%</text>
-<text x="478" y="112" class="st">19 mins</text>
+<text x="328" y="112" class="sw">JSON</text>
+<text x="438" y="112" class="sp">2.8%</text>
+<text x="478" y="112" class="st">32 mins</text>
 <rect x="316" y="120" width="8" height="8" rx="2" fill="#ec4899"/>
-<text x="328" y="127" class="sw">Git Config</text>
-<text x="438" y="127" class="sp">1.8%</text>
-<text x="478" y="127" class="st">15 mins</text>
+<text x="328" y="127" class="sw">YAML</text>
+<text x="438" y="127" class="sp">1.6%</text>
+<text x="478" y="127" class="st">19 mins</text>
 <rect x="316" y="135" width="8" height="8" rx="2" fill="#6366f1"/>
-<text x="328" y="142" class="sw">Bash</text>
-<text x="438" y="142" class="sp">1.3%</text>
-<text x="478" y="142" class="st">11 mins</text>
+<text x="328" y="142" class="sw">Git Config</text>
+<text x="438" y="142" class="sp">1.4%</text>
+<text x="478" y="142" class="st">15 mins</text>
 </svg>

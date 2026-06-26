@@ -7,16 +7,16 @@
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 </style>
 <text x="98" y="16" class="tl">📂 Categories</text>
-<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#3b82f6" stroke-width="20.0" stroke-dasharray="208.0277 131.2643" stroke-dashoffset="84.8230" stroke-linecap="butt"><title>AI Coding: 61.3%</title></circle>
-<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#10b981" stroke-width="20.0" stroke-dasharray="97.9142 241.3778" stroke-dashoffset="-123.2047" stroke-linecap="butt"><title>Coding: 28.9%</title></circle>
-<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#f59e0b" stroke-width="20.0" stroke-dasharray="33.3501 305.9420" stroke-dashoffset="-221.1190" stroke-linecap="butt"><title>Writing Docs: 9.8%</title></circle>
+<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#3b82f6" stroke-width="20.0" stroke-dasharray="161.1907 178.1013" stroke-dashoffset="84.8230" stroke-linecap="butt"><title>Coding: 47.5%</title></circle>
+<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#10b981" stroke-width="20.0" stroke-dasharray="153.5086 185.7834" stroke-dashoffset="-76.3677" stroke-linecap="butt"><title>AI Coding: 45.2%</title></circle>
+<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#f59e0b" stroke-width="20.0" stroke-dasharray="24.5927 314.6993" stroke-dashoffset="-229.8763" stroke-linecap="butt"><title>Writing Docs: 7.2%</title></circle>
 <rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6"/>
-<text x="26" y="172" class="lg">AI Coding</text>
-<text x="111" y="172" class="lp">61.3%</text>
+<text x="26" y="172" class="lg">Coding</text>
+<text x="111" y="172" class="lp">47.5%</text>
 <rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981"/>
-<text x="26" y="188" class="lg">Coding</text>
-<text x="111" y="188" class="lp">28.9%</text>
+<text x="26" y="188" class="lg">AI Coding</text>
+<text x="111" y="188" class="lp">45.2%</text>
 <rect x="14" y="197" width="8" height="8" rx="2" fill="#f59e0b"/>
 <text x="26" y="204" class="lg">Writing Docs</text>
-<text x="111" y="204" class="lp">9.8%</text>
+<text x="111" y="204" class="lp">7.2%</text>
 </svg>
