@@ -138,9 +138,9 @@ def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
     x = ML + gap // 2
     for i, (ds, secs) in enumerate(daily):
         cx = x + bw / 2.0
-        delay = i * 0.08
+        delay = i * 0.12
         css.append(
-            f'.b{i}{{animation:g 0.4s {delay:.2f}s ease-out forwards;'
+            f'.b{i}{{animation:g 0.5s {delay:.2f}s ease-out forwards;'
             f'fill:#3b82f6;rx:3;transform-origin:{cx:.1f}px {bottom_y:.0f}px}}')
         css.append(f'.b{i}:hover{{fill:#2563eb}}')
         x += bw + gap
@@ -216,7 +216,7 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
     for i, (name, val, color) in enumerate(colored):
         pct = val / total
         dash_len = pct * circumference
-        delay = i * 0.3
+        delay = i * 0.6
         # Each segment animates dasharray from 0 to target length
         css.append(
             f'@keyframes s{i}{{'
@@ -224,7 +224,7 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
             f'to{{stroke-dasharray:{dash_len:.4f} {circumference - dash_len:.4f}}}}}')
         cls = f's{i}'
         css.append(
-            f'.{cls}{{animation:s{i} 0.3s {delay:.2f}s ease-out forwards;'
+            f'.{cls}{{animation:s{i} 0.6s {delay:.2f}s ease-out forwards;'
             f'fill:none;stroke:{color};stroke-width:{sw};'
             f'stroke-dashoffset:{circumference * 0.25 - cumulative:.4f};stroke-linecap:butt}}')
         seg_class_names.append(cls)
@@ -245,8 +245,8 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
 
     # Center text
     if center_label:
-        parts.append(f'<text x="{cx:.1f}" y="{cy-4:.1f}" class="ct" style="opacity:0;animation:fadein 0.4s {0.3*len(colored):.2f}s ease-out forwards">{_fmt_num(int(total))}</text>')
-        parts.append(f'<text x="{cx:.1f}" y="{cy+12:.1f}" class="cu" style="opacity:0;animation:fadein 0.4s {0.3*len(colored):.2f}s ease-out forwards">{center_label}</text>')
+        parts.append(f'<text x="{cx:.1f}" y="{cy-4:.1f}" class="ct" style="opacity:0;animation:fadein 0.4s {0.6*len(colored):.2f}s ease-out forwards">{_fmt_num(int(total))}</text>')
+        parts.append(f'<text x="{cx:.1f}" y="{cy+12:.1f}" class="cu" style="opacity:0;animation:fadein 0.4s {0.6*len(colored):.2f}s ease-out forwards">{center_label}</text>')
 
     # Legend
     ly = int(cy + mid_r + sw + 8)
@@ -258,7 +258,7 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
         row = i % per_col
         lx = 14 + col * (width // 2)
         y = ly + row * 16
-        delay = 0.3 * len(colored) + i * 0.1
+        delay = 0.6 * len(colored) + i * 0.2
         parts.append(
             f'<rect x="{lx}" y="{y-5}" width="8" height="8" rx="2" fill="{color}" '
             f'style="opacity:0;animation:fadein 0.3s {delay:.2f}s ease-out forwards"/>')
@@ -306,7 +306,7 @@ def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
         all_items.append(("Other", remaining, ""))
 
     n = len(all_items)
-    anim_dur = 0.6  # total reveal duration
+    anim_dur = 2.0  # total reveal duration
 
     # CSS: reveal animation for the bar group, fade-in for legend
     css = [
@@ -369,7 +369,7 @@ def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
         lx = 16 + col * (W // 2)
         ly = legend_y + row * 15
         color = PALETTE[i % len(PALETTE)]
-        delay = anim_dur + i * 0.08
+        delay = anim_dur + i * 0.2
         parts.append(
             f'<rect x="{lx}" y="{ly - 5}" width="8" height="8" rx="2" fill="{color}" '
             f'style="opacity:0;animation:fi 0.3s {delay:.2f}s ease-out forwards"/>')
