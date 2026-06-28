@@ -1,39 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200" role="img">
-<style>.b{fill:#3b82f6;rx:3}.b:hover{fill:#2563eb}.grid{stroke:#e5e7eb;stroke-width:.5}
+<style>
+@keyframes g{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+.grid{stroke:#e5e7eb;stroke-width:.5}
 .tick{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}
 .lab{fill:#374151;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .val{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif;text-anchor:middle}
-.tit{fill:#111827;font-size:13px;font-weight:600;font-family:system-ui,sans-serif}</style>
-<text x="50" y="18" class="tit">📅 Daily Coding Activity</text>
+.b0{animation:g 0.4s 0.00s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:89.0px 168px}
+.b0:hover{fill:#2563eb}
+.b1{animation:g 0.4s 0.08s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:167.0px 168px}
+.b1:hover{fill:#2563eb}
+.b2{animation:g 0.4s 0.16s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:245.0px 168px}
+.b2:hover{fill:#2563eb}
+.b3{animation:g 0.4s 0.24s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:323.0px 168px}
+.b3:hover{fill:#2563eb}
+.b4{animation:g 0.4s 0.32s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:401.0px 168px}
+.b4:hover{fill:#2563eb}
+.b5{animation:g 0.4s 0.40s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:479.0px 168px}
+.b5:hover{fill:#2563eb}
+.b6{animation:g 0.4s 0.48s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:557.0px 168px}
+.b6:hover{fill:#2563eb}
+</style>
 <line x1="50" y1="168.0" x2="588" y2="168.0" class="grid"/>
 <text x="46" y="171.0" class="tick" text-anchor="end">0.0h</text>
-<line x1="50" y1="132.0" x2="588" y2="132.0" class="grid"/>
-<text x="46" y="135.0" class="tick" text-anchor="end">1.3h</text>
-<line x1="50" y1="96.0" x2="588" y2="96.0" class="grid"/>
-<text x="46" y="99.0" class="tick" text-anchor="end">2.6h</text>
-<line x1="50" y1="60.0" x2="588" y2="60.0" class="grid"/>
-<text x="46" y="63.0" class="tick" text-anchor="end">3.8h</text>
-<line x1="50" y1="24.0" x2="588" y2="24.0" class="grid"/>
-<text x="46" y="27.0" class="tick" text-anchor="end">5.1h</text>
-<rect x="55.0" y="101.4" width="68" height="66.6" class="b"><title>06-22: 2.4h</title></rect>
-<text x="89.0" y="98.4" class="val">2.4h</text>
-<text x="89.0" y="190" class="lab">06-22</text>
-<rect x="133.0" y="24.9" width="68" height="143.1" class="b"><title>06-23: 5.1h</title></rect>
-<text x="167.0" y="21.9" class="val">5.1h</text>
-<text x="167.0" y="190" class="lab">06-23</text>
-<rect x="211.0" y="102.5" width="68" height="65.5" class="b"><title>06-24: 2.3h</title></rect>
-<text x="245.0" y="99.5" class="val">2.3h</text>
-<text x="245.0" y="190" class="lab">06-24</text>
-<rect x="289.0" y="24.0" width="68" height="144.0" class="b"><title>06-25: 5.1h</title></rect>
-<text x="323.0" y="21.0" class="val">5.1h</text>
-<text x="323.0" y="190" class="lab">06-25</text>
-<rect x="367.0" y="97.4" width="68" height="70.6" class="b"><title>06-26: 2.5h</title></rect>
-<text x="401.0" y="94.4" class="val">2.5h</text>
-<text x="401.0" y="190" class="lab">06-26</text>
-<rect x="445.0" y="73.0" width="68" height="95.0" class="b"><title>06-27: 3.4h</title></rect>
-<text x="479.0" y="70.0" class="val">3.4h</text>
-<text x="479.0" y="190" class="lab">06-27</text>
-<rect x="523.0" y="76.3" width="68" height="91.7" class="b"><title>06-28: 3.3h</title></rect>
-<text x="557.0" y="73.3" class="val">3.3h</text>
-<text x="557.0" y="190" class="lab">06-28</text>
+<line x1="50" y1="128.0" x2="588" y2="128.0" class="grid"/>
+<text x="46" y="131.0" class="tick" text-anchor="end">1.3h</text>
+<line x1="50" y1="88.0" x2="588" y2="88.0" class="grid"/>
+<text x="46" y="91.0" class="tick" text-anchor="end">2.6h</text>
+<line x1="50" y1="48.0" x2="588" y2="48.0" class="grid"/>
+<text x="46" y="51.0" class="tick" text-anchor="end">3.8h</text>
+<line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
+<text x="46" y="11.0" class="tick" text-anchor="end">5.1h</text>
+<rect x="55.0" y="9.0" width="68" height="159.0" class="b0"><title>06-23: 5.1h</title></rect>
+<text x="89.0" y="6.0" class="val">5.1h</text>
+<text x="89.0" y="190" class="lab">06-23</text>
+<rect x="133.0" y="95.2" width="68" height="72.8" class="b1"><title>06-24: 2.3h</title></rect>
+<text x="167.0" y="92.2" class="val">2.3h</text>
+<text x="167.0" y="190" class="lab">06-24</text>
+<rect x="211.0" y="8.0" width="68" height="160.0" class="b2"><title>06-25: 5.1h</title></rect>
+<text x="245.0" y="5.0" class="val">5.1h</text>
+<text x="245.0" y="190" class="lab">06-25</text>
+<rect x="289.0" y="89.5" width="68" height="78.5" class="b3"><title>06-26: 2.5h</title></rect>
+<text x="323.0" y="86.5" class="val">2.5h</text>
+<text x="323.0" y="190" class="lab">06-26</text>
+<rect x="367.0" y="62.5" width="68" height="105.5" class="b4"><title>06-27: 3.4h</title></rect>
+<text x="401.0" y="59.5" class="val">3.4h</text>
+<text x="401.0" y="190" class="lab">06-27</text>
+<rect x="445.0" y="10.9" width="68" height="157.1" class="b5"><title>06-28: 5.0h</title></rect>
+<text x="479.0" y="7.9" class="val">5.0h</text>
+<text x="479.0" y="190" class="lab">06-28</text>
+<rect x="523.0" y="158.0" width="68" height="10.0" class="b6"><title>06-29: 0.3h</title></rect>
+<text x="557.0" y="155.0" class="val">19m</text>
+<text x="557.0" y="190" class="lab">06-29</text>
 </svg>

@@ -5,18 +5,26 @@
 .lp{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}
 .ct{fill:#111827;font-size:15px;font-weight:700;font-family:system-ui,sans-serif;text-anchor:middle}
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
+.swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
+@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:209.8434 129.4487}}
+.s0{animation:s0 0.3s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
+@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:108.2318 231.0602}}
+.s1{animation:s1 0.3s 0.30s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dashoffset:-125.0204;stroke-linecap:butt}
+@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:21.2169 318.0751}}
+.s2{animation:s2 0.3s 0.60s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dashoffset:-233.2521;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">📂 Categories</text>
-<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#3b82f6" stroke-width="20.0" stroke-dasharray="209.8434 129.4487" stroke-dashoffset="84.8230" stroke-linecap="butt"><title>Coding: 61.8%</title></circle>
-<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#10b981" stroke-width="20.0" stroke-dasharray="108.2318 231.0602" stroke-dashoffset="-125.0204" stroke-linecap="butt"><title>AI Coding: 31.9%</title></circle>
-<circle cx="98.0" cy="88.0" r="54.0" fill="none" stroke="#f59e0b" stroke-width="20.0" stroke-dasharray="21.2169 318.0751" stroke-dashoffset="-233.2521" stroke-linecap="butt"><title>Writing Docs: 6.3%</title></circle>
-<rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6"/>
-<text x="26" y="172" class="lg">Coding</text>
-<text x="111" y="172" class="lp">61.8%</text>
-<rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981"/>
-<text x="26" y="188" class="lg">AI Coding</text>
-<text x="111" y="188" class="lp">31.9%</text>
-<rect x="14" y="197" width="8" height="8" rx="2" fill="#f59e0b"/>
-<text x="26" y="204" class="lg">Writing Docs</text>
-<text x="111" y="204" class="lp">6.3%</text>
+<circle cx="98.0" cy="88.0" r="54.0" class="s0"/>
+<circle cx="98.0" cy="88.0" r="54.0" class="s1"/>
+<circle cx="98.0" cy="88.0" r="54.0" class="s2"/>
+<rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fadein 0.3s 0.90s ease-out forwards"/>
+<text x="26" y="172" class="lg" style="opacity:0;animation:fadein 0.3s 0.90s ease-out forwards">Coding</text>
+<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 0.90s ease-out forwards">61.8%</text>
+<rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fadein 0.3s 1.00s ease-out forwards"/>
+<text x="26" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 1.00s ease-out forwards">AI Coding</text>
+<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 1.00s ease-out forwards">31.9%</text>
+<rect x="14" y="197" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fadein 0.3s 1.10s ease-out forwards"/>
+<text x="26" y="204" class="lg" style="opacity:0;animation:fadein 0.3s 1.10s ease-out forwards">Writing Docs</text>
+<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 1.10s ease-out forwards">6.3%</text>
 </svg>
