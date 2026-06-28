@@ -140,7 +140,7 @@ def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
         cx = x + bw / 2.0
         delay = i * 0.25
         css.append(
-            f'.b{i}{{animation:g 1.2s {delay:.2f}s ease-out forwards;'
+            f'.b{i}{{animation:g 2.0s {delay:.2f}s ease-out forwards;'
             f'fill:#3b82f6;rx:3;transform-origin:{cx:.1f}px {bottom_y:.0f}px}}')
         css.append(f'.b{i}:hover{{fill:#2563eb}}')
         x += bw + gap
@@ -224,8 +224,9 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
             f'to{{stroke-dasharray:{dash_len:.4f} {circumference - dash_len:.4f}}}}}')
         cls = f's{i}'
         css.append(
-            f'.{cls}{{animation:s{i} 0.6s {delay:.2f}s ease-out both;'
+            f'.{cls}{{animation:s{i} 0.6s {delay:.2f}s ease-out forwards;'
             f'fill:none;stroke:{color};stroke-width:{sw};'
+            f'stroke-dasharray:0 {circumference:.4f};'
             f'stroke-dashoffset:{circumference * 0.25 - cumulative:.4f};stroke-linecap:butt}}')
         seg_class_names.append(cls)
         cumulative += dash_len
@@ -274,6 +275,16 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
     svg = "\n".join(parts)
     _save_svg(filename, svg)
     return f'<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/{filename}" width="{width}" alt="{title}"/>'
+
+
+def _text_color(hex_color: str) -> str:
+    """Return '#fff' or '#1f2937' depending on background luminance."""
+    r = int(hex_color[1:3], 16)
+    g = int(hex_color[3:5], 16)
+    b = int(hex_color[5:7], 16)
+    # Perceived brightness (sRGB approx)
+    lum = 0.299 * r + 0.587 * g + 0.114 * b
+    return "#1f2937" if lum > 140 else "#fff"
 
 
 def _fmt_num(n: int) -> str:
@@ -329,8 +340,10 @@ def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
         f'<text x="16" y="20" class="tt">{title}</text>',
     ]
 
-    # Segments — wrapped in a <g> that scales from left
-    parts.append(f'<g class="bar">')
+    # Segments — wrapped in a <g> that scales from left. Text labels are
+    # OUTSIDE the animated group so they aren't squished by scaleX.
+    parts.append('<g class="bar">')
+    segs: list[dict[str, Any]] = []  # remember positions for text pass
     x = bar_x
     last_i = n - 1
     for i, (name, pct, time_txt) in enumerate(all_items):
@@ -345,14 +358,23 @@ def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
         color = PALETTE[i % len(PALETTE)]
         parts.append(
             f'<rect x="{x:.1f}" y="{bar_y}" width="{seg_w:.2f}" height="{bar_h}" '
-            f'fill="{color}"><title>{name}: {pct:.1f}%{chr(32)+"("+time_txt+")" if time_txt else ""}</title></rect>')
-        if seg_w > 40 and name != "Other":
-            parts.append(
-                f'<text x="{x + seg_w/2:.1f}" y="{bar_y + bar_h/2 + 4:.1f}" '
-                f'text-anchor="middle" fill="#fff" font-size="10" '
-                f'font-family="system-ui,sans-serif" font-weight="600">{pct:.1f}%</text>')
+            f'fill="{color}"><title>{name}: {pct:.1f}%'
+            f'{chr(32)+"("+time_txt+")" if time_txt else ""}</title></rect>')
+        segs.append({"x": x, "w": seg_w, "pct": pct, "name": name, "color": color})
         x += seg_w
     parts.append('</g>')
+
+    # Segment labels — outside animated group, fade in after bar reveals
+    for s in segs:
+        if s["w"] > 40 and s["name"] != "Other":
+            # Use dark text on light backgrounds (amber/lime/cyan)
+            txt_color = _text_color(s["color"])
+            parts.append(
+                f'<text x="{s["x"] + s["w"]/2:.1f}" y="{bar_y + bar_h/2 + 4:.1f}" '
+                f'text-anchor="middle" fill="{txt_color}" font-size="10" '
+                f'font-family="system-ui,sans-serif" font-weight="600" '
+                f'style="opacity:0;animation:fi 0.3s {anim_dur}s ease-out forwards">'
+                f'{s["pct"]:.1f}%</text>')
 
     # Bar outline — fades in after the bar reveals
     parts.append(
