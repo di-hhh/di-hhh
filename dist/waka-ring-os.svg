@@ -8,7 +8,7 @@
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
 @keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:339.2920 0.0000}}
-.s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
+.s0{animation:s0 0.6s 0.00s ease-out both;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">🖥️ Operating Systems</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>

@@ -8,11 +8,11 @@
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
 @keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:259.9854 79.3066}}
-.s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
+.s0{animation:s0 0.6s 0.00s ease-out both;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
 @keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:65.1769 274.1151}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dashoffset:-175.1624;stroke-linecap:butt}
+.s1{animation:s1 0.6s 0.60s ease-out both;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dashoffset:-175.1624;stroke-linecap:butt}
 @keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:14.1297 325.1623}}
-.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dashoffset:-240.3393;stroke-linecap:butt}
+.s2{animation:s2 0.6s 1.20s ease-out both;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dashoffset:-240.3393;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">📂 Categories</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>

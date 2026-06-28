@@ -8,9 +8,9 @@
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
 @keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:289.3647 49.9274}}
-.s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
+.s0{animation:s0 0.6s 0.00s ease-out both;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dashoffset:84.8230;stroke-linecap:butt}
 @keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:49.9274 289.3647}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dashoffset:-204.5417;stroke-linecap:butt}
+.s1{animation:s1 0.6s 0.60s ease-out both;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dashoffset:-204.5417;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">🤖 AI vs Manual Coding</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>

@@ -5,19 +5,19 @@
 .tick{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}
 .lab{fill:#374151;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .val{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif;text-anchor:middle}
-.b0{animation:g 0.5s 0.00s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:89.0px 168px}
+.b0{animation:g 1.2s 0.00s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:89.0px 168px}
 .b0:hover{fill:#2563eb}
-.b1{animation:g 0.5s 0.12s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:167.0px 168px}
+.b1{animation:g 1.2s 0.25s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:167.0px 168px}
 .b1:hover{fill:#2563eb}
-.b2{animation:g 0.5s 0.24s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:245.0px 168px}
+.b2{animation:g 1.2s 0.50s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:245.0px 168px}
 .b2:hover{fill:#2563eb}
-.b3{animation:g 0.5s 0.36s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:323.0px 168px}
+.b3{animation:g 1.2s 0.75s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:323.0px 168px}
 .b3:hover{fill:#2563eb}
-.b4{animation:g 0.5s 0.48s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:401.0px 168px}
+.b4{animation:g 1.2s 1.00s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:401.0px 168px}
 .b4:hover{fill:#2563eb}
-.b5{animation:g 0.5s 0.60s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:479.0px 168px}
+.b5{animation:g 1.2s 1.25s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:479.0px 168px}
 .b5:hover{fill:#2563eb}
-.b6{animation:g 0.5s 0.72s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:557.0px 168px}
+.b6{animation:g 1.2s 1.50s ease-out forwards;fill:#3b82f6;rx:3;transform-origin:557.0px 168px}
 .b6:hover{fill:#2563eb}
 </style>
 <line x1="50" y1="168.0" x2="588" y2="168.0" class="grid"/>
@@ -48,7 +48,7 @@
 <rect x="445.0" y="10.9" width="68" height="157.1" class="b5"><title>06-28: 5.0h</title></rect>
 <text x="479.0" y="7.9" class="val">5.0h</text>
 <text x="479.0" y="190" class="lab">06-28</text>
-<rect x="523.0" y="153.5" width="68" height="14.5" class="b6"><title>06-29: 0.5h</title></rect>
-<text x="557.0" y="150.5" class="val">27m</text>
+<rect x="523.0" y="148.2" width="68" height="19.8" class="b6"><title>06-29: 0.6h</title></rect>
+<text x="557.0" y="145.2" class="val">38m</text>
 <text x="557.0" y="190" class="lab">06-29</text>
 </svg>
