@@ -33,6 +33,7 @@
 <rect x="445.0" y="73.0" width="68" height="95.0" class="b"><title>06-27: 3.4h</title></rect>
 <text x="479.0" y="70.0" class="val">3.4h</text>
 <text x="479.0" y="190" class="lab">06-27</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b"><title>06-28: 0.0h</title></rect>
+<rect x="523.0" y="76.3" width="68" height="91.7" class="b"><title>06-28: 3.3h</title></rect>
+<text x="557.0" y="73.3" class="val">3.3h</text>
 <text x="557.0" y="190" class="lab">06-28</text>
 </svg>
