@@ -138,9 +138,9 @@ def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
     x = ML + gap // 2
     for i, (ds, secs) in enumerate(daily):
         cx = x + bw / 2.0
-        delay = i * 0.12
+        delay = i * 0.25
         css.append(
-            f'.b{i}{{animation:g 0.5s {delay:.2f}s ease-out forwards;'
+            f'.b{i}{{animation:g 1.2s {delay:.2f}s ease-out forwards;'
             f'fill:#3b82f6;rx:3;transform-origin:{cx:.1f}px {bottom_y:.0f}px}}')
         css.append(f'.b{i}:hover{{fill:#2563eb}}')
         x += bw + gap
@@ -224,7 +224,7 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
             f'to{{stroke-dasharray:{dash_len:.4f} {circumference - dash_len:.4f}}}}}')
         cls = f's{i}'
         css.append(
-            f'.{cls}{{animation:s{i} 0.6s {delay:.2f}s ease-out forwards;'
+            f'.{cls}{{animation:s{i} 0.6s {delay:.2f}s ease-out both;'
             f'fill:none;stroke:{color};stroke-width:{sw};'
             f'stroke-dashoffset:{circumference * 0.25 - cumulative:.4f};stroke-linecap:butt}}')
         seg_class_names.append(cls)
