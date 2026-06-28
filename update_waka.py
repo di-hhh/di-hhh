@@ -108,7 +108,7 @@ def fetch_summaries(api_key: str) -> list[dict[str, Any]] | None:
 # ── SVG: Daily Activity Bar Chart ────────────────────────────────────────
 
 def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
-    """7-day vertical bar chart."""
+    """7-day vertical bar chart with grow-in animation (no title)."""
     if not days:
         return None
     daily: list[tuple[str, float]] = []
@@ -120,21 +120,38 @@ def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
 
     max_s = max(v for _, v in daily) or 1
     W, H = 600, 200
-    ML, MR, MT, MB = 50, 12, 24, 32
+    ML, MR, MT, MB = 50, 12, 8, 32  # reduced MT since no title
     cw, ch = W - ML - MR, H - MT - MB
     gap = 10
     bw = max(8, (cw - gap * (len(daily) - 1)) // len(daily))
 
+    bottom_y = MT + ch  # bars grow from this y coordinate
+
+    # Build CSS: one @keyframes, one class per bar with its own transform-origin + delay
+    css = ['<style>',
+           '@keyframes g{from{transform:scaleY(0)}to{transform:scaleY(1)}}',
+           '.grid{stroke:#e5e7eb;stroke-width:.5}',
+           '.tick{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}',
+           '.lab{fill:#374151;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}',
+           '.val{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif;text-anchor:middle}']
+
+    x = ML + gap // 2
+    for i, (ds, secs) in enumerate(daily):
+        cx = x + bw / 2.0
+        delay = i * 0.08
+        css.append(
+            f'.b{i}{{animation:g 0.4s {delay:.2f}s ease-out forwards;'
+            f'fill:#3b82f6;rx:3;transform-origin:{cx:.1f}px {bottom_y:.0f}px}}')
+        css.append(f'.b{i}:hover{{fill:#2563eb}}')
+        x += bw + gap
+    css.append('</style>')
+
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img">',
-        '<style>.b{fill:#3b82f6;rx:3}.b:hover{fill:#2563eb}.grid{stroke:#e5e7eb;stroke-width:.5}',
-        '.tick{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}',
-        '.lab{fill:#374151;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}',
-        '.val{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif;text-anchor:middle}',
-        '.tit{fill:#111827;font-size:13px;font-weight:600;font-family:system-ui,sans-serif}</style>',
-        f'<text x="{ML}" y="18" class="tit">📅 Daily Coding Activity</text>',
+        *css,
     ]
 
+    # Grid + Y-axis
     ticks = 4
     step = max_s / ticks if max_s else 1
     for i in range(ticks + 1):
@@ -142,12 +159,15 @@ def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
         parts.append(f'<line x1="{ML}" y1="{y:.1f}" x2="{W-MR}" y2="{y:.1f}" class="grid"/>')
         parts.append(f'<text x="{ML-4}" y="{y+3:.1f}" class="tick" text-anchor="end">{step*i/3600:.1f}h</text>')
 
+    # Bars
     x = ML + gap // 2
-    for ds, secs in daily:
+    for i, (ds, secs) in enumerate(daily):
         bh = (secs / max_s) * ch if max_s else 0
         bh = max(0, min(ch, bh))
-        by = MT + ch - bh
-        parts.append(f'<rect x="{x:.1f}" y="{by:.1f}" width="{bw}" height="{bh:.1f}" class="b"><title>{ds}: {secs/3600:.1f}h</title></rect>')
+        by = bottom_y - bh
+        parts.append(
+            f'<rect x="{x:.1f}" y="{by:.1f}" width="{bw}" height="{bh:.1f}" '
+            f'class="b{i}"><title>{ds}: {secs/3600:.1f}h</title></rect>')
         if secs > 0:
             vt = f"{secs/3600:.1f}h" if secs >= 3600 else f"{int(secs/60)}m"
             parts.append(f'<text x="{x+bw/2:.1f}" y="{by-3:.1f}" class="val">{vt}</text>')
@@ -162,10 +182,11 @@ def svg_daily_activity(days: list[dict[str, Any]]) -> str | None:
 
 def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
              center_label: str = "", width: int = 280, height: int = 260) -> str | None:
-    """Generate a donut chart SVG.
+    """Donut chart with per-segment stroke-dasharray draw-in animation.
 
-    items: [(label, value), ...] — percentages computed from values.
-    center_label: subtitle shown below the center number. Omit for no center text.
+    Each segment gets its own @keyframes (no CSS custom properties for max
+    GitHub sanitizer compatibility). Segments animate one after another with
+    0.3s delay between them.
     """
     if not items:
         return None
@@ -178,42 +199,54 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
     sw = 20.0
     circumference = 2.0 * math.pi * mid_r
 
-    # Assign colors
     colored = [(name, val, PALETTE[i % len(PALETTE)]) for i, (name, val) in enumerate(items)]
+
+    # Build CSS: one @keyframes per segment + one class per segment
+    css = ['<style>',
+           '.tl{fill:#111827;font-size:11px;font-weight:600;font-family:system-ui,sans-serif;text-anchor:middle}',
+           '.lg{fill:#374151;font-size:10px;font-family:system-ui,sans-serif}',
+           '.lp{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}',
+           '.ct{fill:#111827;font-size:15px;font-weight:700;font-family:system-ui,sans-serif;text-anchor:middle}',
+           '.cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}',
+           '.swatch{opacity:0;animation:fadein 0.3s ease-out forwards}',
+           '@keyframes fadein{from{opacity:0}to{opacity:1}}']
+
+    cumulative = 0.0
+    seg_class_names: list[str] = []
+    for i, (name, val, color) in enumerate(colored):
+        pct = val / total
+        dash_len = pct * circumference
+        delay = i * 0.3
+        # Each segment animates dasharray from 0 to target length
+        css.append(
+            f'@keyframes s{i}{{'
+            f'from{{stroke-dasharray:0 {circumference:.4f}}}'
+            f'to{{stroke-dasharray:{dash_len:.4f} {circumference - dash_len:.4f}}}}}')
+        cls = f's{i}'
+        css.append(
+            f'.{cls}{{animation:s{i} 0.3s {delay:.2f}s ease-out forwards;'
+            f'fill:none;stroke:{color};stroke-width:{sw};'
+            f'stroke-dashoffset:{circumference * 0.25 - cumulative:.4f};stroke-linecap:butt}}')
+        seg_class_names.append(cls)
+        cumulative += dash_len
+    css.append('</style>')
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {width} {height}" '
         f'width="{width}" height="{height}" role="img">',
-        '<style>',
-        '.tl{fill:#111827;font-size:11px;font-weight:600;font-family:system-ui,sans-serif;text-anchor:middle}',
-        '.lg{fill:#374151;font-size:10px;font-family:system-ui,sans-serif}',
-        '.lp{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}',
-        '.ct{fill:#111827;font-size:15px;font-weight:700;font-family:system-ui,sans-serif;text-anchor:middle}',
-        '.cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}',
-        '</style>',
+        *css,
         f'<text x="{cx}" y="16" class="tl">{title}</text>',
     ]
 
-    # Ring segments using stroke-dasharray
-    cumulative = 0.0
-    for name, val, color in colored:
-        pct = val / total
-        dash_len = pct * circumference
-        # SVG circles start at 3 o'clock; offset by 1/4 circumference to start at 12 o'clock
-        offset = circumference * 0.25 - cumulative
+    # Ring segments
+    for cls in seg_class_names:
         parts.append(
-            f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{mid_r:.1f}" '
-            f'fill="none" stroke="{color}" stroke-width="{sw}" '
-            f'stroke-dasharray="{dash_len:.4f} {circumference - dash_len:.4f}" '
-            f'stroke-dashoffset="{offset:.4f}" stroke-linecap="butt">'
-            f'<title>{name}: {pct*100:.1f}%</title></circle>'
-        )
-        cumulative += dash_len
+            f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{mid_r:.1f}" class="{cls}"/>')
 
-    # Center text — only if a label is requested
+    # Center text
     if center_label:
-        parts.append(f'<text x="{cx:.1f}" y="{cy-4:.1f}" class="ct">{_fmt_num(int(total))}</text>')
-        parts.append(f'<text x="{cx:.1f}" y="{cy+12:.1f}" class="cu">{center_label}</text>')
+        parts.append(f'<text x="{cx:.1f}" y="{cy-4:.1f}" class="ct" style="opacity:0;animation:fadein 0.4s {0.3*len(colored):.2f}s ease-out forwards">{_fmt_num(int(total))}</text>')
+        parts.append(f'<text x="{cx:.1f}" y="{cy+12:.1f}" class="cu" style="opacity:0;animation:fadein 0.4s {0.3*len(colored):.2f}s ease-out forwards">{center_label}</text>')
 
     # Legend
     ly = int(cy + mid_r + sw + 8)
@@ -225,10 +258,17 @@ def svg_ring(title: str, items: list[tuple[str, float]], filename: str, *,
         row = i % per_col
         lx = 14 + col * (width // 2)
         y = ly + row * 16
-        parts.append(f'<rect x="{lx}" y="{y-5}" width="8" height="8" rx="2" fill="{color}"/>')
+        delay = 0.3 * len(colored) + i * 0.1
+        parts.append(
+            f'<rect x="{lx}" y="{y-5}" width="8" height="8" rx="2" fill="{color}" '
+            f'style="opacity:0;animation:fadein 0.3s {delay:.2f}s ease-out forwards"/>')
         pct = val / total * 100
-        parts.append(f'<text x="{lx+12}" y="{y+2}" class="lg">{name}</text>')
-        parts.append(f'<text x="{lx+12+85}" y="{y+2}" class="lp">{pct:.1f}%</text>')
+        parts.append(
+            f'<text x="{lx+12}" y="{y+2}" class="lg" '
+            f'style="opacity:0;animation:fadein 0.3s {delay:.2f}s ease-out forwards">{name}</text>')
+        parts.append(
+            f'<text x="{lx+12+85}" y="{y+2}" class="lp" '
+            f'style="opacity:0;animation:fadein 0.3s {delay:.2f}s ease-out forwards">{pct:.1f}%</text>')
 
     parts.append("</svg>")
     svg = "\n".join(parts)
@@ -246,10 +286,10 @@ def _fmt_num(n: int) -> str:
 
 def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
                     filename: str) -> str | None:
-    """Horizontal stacked bar — each segment is a language, colored by PALETTE.
+    """Horizontal stacked bar with scaleX reveal animation.
 
     items: [(name, percent, time_text), ...]
-    Returns the markdown <img> tag, or None if there are no items.
+    If percentages sum to less than 98%, an "Other" segment fills the bar.
     """
     if not items:
         return None
@@ -258,61 +298,91 @@ def svg_stacked_bar(title: str, items: list[tuple[str, float, str]],
     bar_x, bar_y, bar_w, bar_h = 16, 36, 568, 24
     legend_y = bar_y + bar_h + 20
 
-    parts = [
-        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
-        f'width="{W}" height="{H}" role="img">',
+    # Ensure bar is always fully filled
+    total_pct = sum(pct for _, pct, _ in items)
+    all_items = list(items)
+    if total_pct < 98.0 and total_pct > 0:
+        remaining = max(0.0, 100.0 - total_pct)
+        all_items.append(("Other", remaining, ""))
+
+    n = len(all_items)
+    anim_dur = 0.6  # total reveal duration
+
+    # CSS: reveal animation for the bar group, fade-in for legend
+    css = [
         '<style>',
+        f'@keyframes r{{from{{transform:scaleX(0)}}to{{transform:scaleX(1)}}}}',
+        '@keyframes fi{from{opacity:0}to{opacity:1}}',
+        f'.bar{{animation:r {anim_dur}s ease-out forwards;'
+        f'transform-origin:{bar_x}px {bar_y + bar_h/2:.0f}px}}',
         '.tt{fill:#111827;font-size:13px;font-weight:600;font-family:system-ui,sans-serif}',
         '.sw{fill:#374151;font-size:10px;font-family:system-ui,sans-serif}',
         '.sp{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}',
         '.st{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}',
         '</style>',
+    ]
+
+    parts = [
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" '
+        f'width="{W}" height="{H}" role="img">',
+        *css,
         f'<text x="16" y="20" class="tt">{title}</text>',
     ]
 
-    # Segments
+    # Segments — wrapped in a <g> that scales from left
+    parts.append(f'<g class="bar">')
     x = bar_x
-    for i, (name, pct, time_txt) in enumerate(items):
+    last_i = n - 1
+    for i, (name, pct, time_txt) in enumerate(all_items):
         if pct <= 0:
             continue
         seg_w = pct / 100.0 * bar_w
-        if seg_w < 1:
+        # Force last segment to fill exactly to the bar end
+        if i == last_i:
+            seg_w = (bar_x + bar_w) - x
+        if seg_w < 0.5:
             continue
         color = PALETTE[i % len(PALETTE)]
         parts.append(
             f'<rect x="{x:.1f}" y="{bar_y}" width="{seg_w:.2f}" height="{bar_h}" '
-            f'fill="{color}" rx="0">'
-            f'<title>{name}: {pct:.1f}% ({time_txt})</title></rect>'
-        )
-        # Label inside segment if wide enough
-        if seg_w > 40:
+            f'fill="{color}"><title>{name}: {pct:.1f}%{chr(32)+"("+time_txt+")" if time_txt else ""}</title></rect>')
+        if seg_w > 40 and name != "Other":
             parts.append(
                 f'<text x="{x + seg_w/2:.1f}" y="{bar_y + bar_h/2 + 4:.1f}" '
                 f'text-anchor="middle" fill="#fff" font-size="10" '
-                f'font-family="system-ui,sans-serif" font-weight="600">{pct:.1f}%</text>'
-            )
+                f'font-family="system-ui,sans-serif" font-weight="600">{pct:.1f}%</text>')
         x += seg_w
+    parts.append('</g>')
 
-    # Bar outline
+    # Bar outline — fades in after the bar reveals
     parts.append(
         f'<rect x="{bar_x}" y="{bar_y}" width="{bar_w}" height="{bar_h}" '
-        f'fill="none" stroke="#d1d5db" stroke-width="1" rx="4"/>'
-    )
+        f'fill="none" stroke="#d1d5db" stroke-width="1" rx="4" '
+        f'style="opacity:0;animation:fi 0.3s {anim_dur}s ease-out forwards"/>')
 
-    # Legend — two columns if > 5 items
-    n = len(items)
+    # Legend — fades in after the bar animation
     cols = 2 if n > 5 else 1
     per_col = (n + cols - 1) // cols
-    for i, (name, pct, time_txt) in enumerate(items):
+    for i, (name, pct, time_txt) in enumerate(all_items):
         col = i // per_col
         row = i % per_col
         lx = 16 + col * (W // 2)
         ly = legend_y + row * 15
         color = PALETTE[i % len(PALETTE)]
-        parts.append(f'<rect x="{lx}" y="{ly - 5}" width="8" height="8" rx="2" fill="{color}"/>')
-        parts.append(f'<text x="{lx + 12}" y="{ly + 2}" class="sw">{name}</text>')
-        parts.append(f'<text x="{lx + 12 + 110}" y="{ly + 2}" class="sp">{pct:.1f}%</text>')
-        parts.append(f'<text x="{lx + 12 + 150}" y="{ly + 2}" class="st">{time_txt}</text>')
+        delay = anim_dur + i * 0.08
+        parts.append(
+            f'<rect x="{lx}" y="{ly - 5}" width="8" height="8" rx="2" fill="{color}" '
+            f'style="opacity:0;animation:fi 0.3s {delay:.2f}s ease-out forwards"/>')
+        parts.append(
+            f'<text x="{lx + 12}" y="{ly + 2}" class="sw" '
+            f'style="opacity:0;animation:fi 0.3s {delay:.2f}s ease-out forwards">{name}</text>')
+        parts.append(
+            f'<text x="{lx + 12 + 110}" y="{ly + 2}" class="sp" '
+            f'style="opacity:0;animation:fi 0.3s {delay:.2f}s ease-out forwards">{pct:.1f}%</text>')
+        if time_txt:
+            parts.append(
+                f'<text x="{lx + 12 + 150}" y="{ly + 2}" class="st" '
+                f'style="opacity:0;animation:fi 0.3s {delay:.2f}s ease-out forwards">{time_txt}</text>')
 
     parts.append("</svg>")
     svg = "\n".join(parts)
