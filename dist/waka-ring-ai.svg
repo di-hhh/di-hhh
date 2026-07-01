@@ -7,20 +7,20 @@
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
-@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:130.1528 209.1392}}
+@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:17.8575 321.4345}}
 .s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:84.8230;stroke-linecap:butt}
-@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:209.1392 130.1528}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-45.3298;stroke-linecap:butt}
+@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:321.4345 17.8575}}
+.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:66.9655;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">🤖 AI vs Manual Coding</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>
 <circle cx="98.0" cy="88.0" r="54.0" class="s1"/>
-<text x="98.0" y="84.0" class="ct" style="opacity:0;animation:fadein 0.4s 1.20s ease-out forwards">2.4K</text>
+<text x="98.0" y="84.0" class="ct" style="opacity:0;animation:fadein 0.4s 1.20s ease-out forwards">1.7K</text>
 <text x="98.0" y="100.0" class="cu" style="opacity:0;animation:fadein 0.4s 1.20s ease-out forwards">total lines</text>
 <rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fadein 0.3s 1.20s ease-out forwards"/>
 <text x="26" y="172" class="lg" style="opacity:0;animation:fadein 0.3s 1.20s ease-out forwards">AI Assisted</text>
-<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 1.20s ease-out forwards">38.4%</text>
+<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 1.20s ease-out forwards">5.3%</text>
 <rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fadein 0.3s 1.40s ease-out forwards"/>
 <text x="26" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 1.40s ease-out forwards">Manual</text>
-<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 1.40s ease-out forwards">61.6%</text>
+<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 1.40s ease-out forwards">94.7%</text>
 </svg>
