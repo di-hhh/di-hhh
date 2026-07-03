@@ -48,6 +48,7 @@
 <rect x="445.0" y="73.4" width="68" height="94.6" class="b5"><title>07-02: 3.0h</title></rect>
 <text x="479.0" y="70.4" class="val">3.0h</text>
 <text x="479.0" y="190" class="lab">07-02</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>07-03: 0.0h</title></rect>
+<rect x="523.0" y="130.8" width="68" height="37.2" class="b6"><title>07-03: 1.2h</title></rect>
+<text x="557.0" y="127.8" class="val">1.2h</text>
 <text x="557.0" y="190" class="lab">07-03</text>
 </svg>
