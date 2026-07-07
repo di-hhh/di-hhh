@@ -23,31 +23,30 @@
 <line x1="50" y1="168.0" x2="588" y2="168.0" class="grid"/>
 <text x="46" y="171.0" class="tick" text-anchor="end">0.0h</text>
 <line x1="50" y1="128.0" x2="588" y2="128.0" class="grid"/>
-<text x="46" y="131.0" class="tick" text-anchor="end">0.9h</text>
+<text x="46" y="131.0" class="tick" text-anchor="end">0.7h</text>
 <line x1="50" y1="88.0" x2="588" y2="88.0" class="grid"/>
-<text x="46" y="91.0" class="tick" text-anchor="end">1.9h</text>
+<text x="46" y="91.0" class="tick" text-anchor="end">1.5h</text>
 <line x1="50" y1="48.0" x2="588" y2="48.0" class="grid"/>
-<text x="46" y="51.0" class="tick" text-anchor="end">2.8h</text>
+<text x="46" y="51.0" class="tick" text-anchor="end">2.2h</text>
 <line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
-<text x="46" y="11.0" class="tick" text-anchor="end">3.8h</text>
-<rect x="55.0" y="8.0" width="68" height="160.0" class="b0"><title>06-30: 3.8h</title></rect>
-<text x="89.0" y="5.0" class="val">3.8h</text>
-<text x="89.0" y="190" class="lab">06-30</text>
-<rect x="133.0" y="106.7" width="68" height="61.3" class="b1"><title>07-01: 1.4h</title></rect>
-<text x="167.0" y="103.7" class="val">1.4h</text>
-<text x="167.0" y="190" class="lab">07-01</text>
-<rect x="211.0" y="41.8" width="68" height="126.2" class="b2"><title>07-02: 3.0h</title></rect>
-<text x="245.0" y="38.8" class="val">3.0h</text>
-<text x="245.0" y="190" class="lab">07-02</text>
-<rect x="289.0" y="118.3" width="68" height="49.7" class="b3"><title>07-03: 1.2h</title></rect>
-<text x="323.0" y="115.3" class="val">1.2h</text>
-<text x="323.0" y="190" class="lab">07-03</text>
-<rect x="367.0" y="40.6" width="68" height="127.4" class="b4"><title>07-04: 3.0h</title></rect>
-<text x="401.0" y="37.6" class="val">3.0h</text>
-<text x="401.0" y="190" class="lab">07-04</text>
-<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>07-05: 0.0h</title></rect>
-<text x="479.0" y="190" class="lab">07-05</text>
-<rect x="523.0" y="117.0" width="68" height="51.0" class="b6"><title>07-06: 1.2h</title></rect>
-<text x="557.0" y="114.0" class="val">1.2h</text>
-<text x="557.0" y="190" class="lab">07-06</text>
+<text x="46" y="11.0" class="tick" text-anchor="end">3.0h</text>
+<rect x="55.0" y="91.1" width="68" height="76.9" class="b0"><title>07-01: 1.4h</title></rect>
+<text x="89.0" y="88.1" class="val">1.4h</text>
+<text x="89.0" y="190" class="lab">07-01</text>
+<rect x="133.0" y="9.5" width="68" height="158.5" class="b1"><title>07-02: 3.0h</title></rect>
+<text x="167.0" y="6.5" class="val">3.0h</text>
+<text x="167.0" y="190" class="lab">07-02</text>
+<rect x="211.0" y="105.6" width="68" height="62.4" class="b2"><title>07-03: 1.2h</title></rect>
+<text x="245.0" y="102.6" class="val">1.2h</text>
+<text x="245.0" y="190" class="lab">07-03</text>
+<rect x="289.0" y="8.0" width="68" height="160.0" class="b3"><title>07-04: 3.0h</title></rect>
+<text x="323.0" y="5.0" class="val">3.0h</text>
+<text x="323.0" y="190" class="lab">07-04</text>
+<rect x="367.0" y="168.0" width="68" height="0.0" class="b4"><title>07-05: 0.0h</title></rect>
+<text x="401.0" y="190" class="lab">07-05</text>
+<rect x="445.0" y="103.9" width="68" height="64.1" class="b5"><title>07-06: 1.2h</title></rect>
+<text x="479.0" y="100.9" class="val">1.2h</text>
+<text x="479.0" y="190" class="lab">07-06</text>
+<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>07-07: 0.0h</title></rect>
+<text x="557.0" y="190" class="lab">07-07</text>
 </svg>
