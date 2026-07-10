@@ -44,9 +44,10 @@
 <rect x="367.0" y="162.9" width="68" height="5.1" class="b4"><title>07-08: 0.2h</title></rect>
 <text x="401.0" y="159.9" class="val">13m</text>
 <text x="401.0" y="190" class="lab">07-08</text>
-<rect x="445.0" y="108.1" width="68" height="59.9" class="b5"><title>07-09: 2.6h</title></rect>
-<text x="479.0" y="105.1" class="val">2.6h</text>
+<rect x="445.0" y="103.5" width="68" height="64.5" class="b5"><title>07-09: 2.8h</title></rect>
+<text x="479.0" y="100.5" class="val">2.8h</text>
 <text x="479.0" y="190" class="lab">07-09</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>07-10: 0.0h</title></rect>
+<rect x="523.0" y="167.1" width="68" height="0.9" class="b6"><title>07-10: 0.0h</title></rect>
+<text x="557.0" y="164.1" class="val">2m</text>
 <text x="557.0" y="190" class="lab">07-10</text>
 </svg>
