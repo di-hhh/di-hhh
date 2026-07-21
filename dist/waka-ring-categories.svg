@@ -7,12 +7,12 @@
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
-@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:197.0737 142.2183}}
+@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:194.1051 145.1869}}
 .s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:84.8230;stroke-linecap:butt}
-@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:127.7508 211.5412}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-112.2507;stroke-linecap:butt}
-@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:14.4675 324.8245}}
-.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-240.0015;stroke-linecap:butt}
+@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:121.8599 217.4321}}
+.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-109.2821;stroke-linecap:butt}
+@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:23.3270 315.9651}}
+.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-231.1420;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">📂 Categories</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>
@@ -20,11 +20,11 @@
 <circle cx="98.0" cy="88.0" r="54.0" class="s2"/>
 <rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fadein 0.3s 1.80s ease-out forwards"/>
 <text x="26" y="172" class="lg" style="opacity:0;animation:fadein 0.3s 1.80s ease-out forwards">AI Coding</text>
-<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 1.80s ease-out forwards">58.1%</text>
+<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 1.80s ease-out forwards">57.2%</text>
 <rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fadein 0.3s 2.00s ease-out forwards"/>
 <text x="26" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 2.00s ease-out forwards">Coding</text>
-<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 2.00s ease-out forwards">37.7%</text>
+<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 2.00s ease-out forwards">35.9%</text>
 <rect x="14" y="197" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fadein 0.3s 2.20s ease-out forwards"/>
 <text x="26" y="204" class="lg" style="opacity:0;animation:fadein 0.3s 2.20s ease-out forwards">Writing Docs</text>
-<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 2.20s ease-out forwards">4.3%</text>
+<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 2.20s ease-out forwards">6.9%</text>
 </svg>
