@@ -36,7 +36,8 @@
 <rect x="133.0" y="48.6" width="68" height="119.4" class="b1"><title>07-22: 3.1h</title></rect>
 <text x="167.0" y="45.6" class="val">3.1h</text>
 <text x="167.0" y="190" class="lab">07-22</text>
-<rect x="211.0" y="168.0" width="68" height="0.0" class="b2"><title>07-23: 0.0h</title></rect>
+<rect x="211.0" y="157.8" width="68" height="10.2" class="b2"><title>07-23: 0.3h</title></rect>
+<text x="245.0" y="154.8" class="val">15m</text>
 <text x="245.0" y="190" class="lab">07-23</text>
 <rect x="289.0" y="168.0" width="68" height="0.0" class="b3"><title>07-24: 0.0h</title></rect>
 <text x="323.0" y="190" class="lab">07-24</text>
@@ -44,6 +45,7 @@
 <text x="401.0" y="190" class="lab">07-25</text>
 <rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>07-26: 0.0h</title></rect>
 <text x="479.0" y="190" class="lab">07-26</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>07-27: 0.0h</title></rect>
+<rect x="523.0" y="71.3" width="68" height="96.7" class="b6"><title>07-27: 2.5h</title></rect>
+<text x="557.0" y="68.3" class="val">2.5h</text>
 <text x="557.0" y="190" class="lab">07-27</text>
 </svg>
