@@ -40,11 +40,13 @@
 <text x="245.0" y="190" class="lab">07-24</text>
 <rect x="289.0" y="168.0" width="68" height="0.0" class="b3"><title>07-25: 0.0h</title></rect>
 <text x="323.0" y="190" class="lab">07-25</text>
-<rect x="367.0" y="168.0" width="68" height="0.0" class="b4"><title>07-26: 0.0h</title></rect>
+<rect x="367.0" y="166.5" width="68" height="1.5" class="b4"><title>07-26: 0.0h</title></rect>
+<text x="401.0" y="163.5" class="val">1m</text>
 <text x="401.0" y="190" class="lab">07-26</text>
-<rect x="445.0" y="38.4" width="68" height="129.6" class="b5"><title>07-27: 2.5h</title></rect>
-<text x="479.0" y="35.4" class="val">2.5h</text>
+<rect x="445.0" y="37.6" width="68" height="130.4" class="b5"><title>07-27: 2.5h</title></rect>
+<text x="479.0" y="34.6" class="val">2.5h</text>
 <text x="479.0" y="190" class="lab">07-27</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>07-28: 0.0h</title></rect>
+<rect x="523.0" y="151.5" width="68" height="16.5" class="b6"><title>07-28: 0.3h</title></rect>
+<text x="557.0" y="148.5" class="val">19m</text>
 <text x="557.0" y="190" class="lab">07-28</text>
 </svg>
