@@ -7,14 +7,14 @@
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
-@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:166.7098 172.5822}}
+@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:276.4383 62.8537}}
 .s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:84.8230;stroke-linecap:butt}
-@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:98.5403 240.7517}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-81.8868;stroke-linecap:butt}
-@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:54.7462 284.5458}}
-.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-180.4271;stroke-linecap:butt}
-@keyframes s3{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:19.2957 319.9963}}
-.s3{animation:s3 0.6s 1.80s ease-out forwards;fill:none;stroke:#ef4444;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-235.1733;stroke-linecap:butt}
+@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:30.8817 308.4103}}
+.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-191.6153;stroke-linecap:butt}
+@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:21.0876 318.2044}}
+.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-222.4970;stroke-linecap:butt}
+@keyframes s3{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:10.8845 328.4075}}
+.s3{animation:s3 0.6s 1.80s ease-out forwards;fill:none;stroke:#ef4444;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-243.5845;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">💻 Editors</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>
@@ -23,14 +23,14 @@
 <circle cx="98.0" cy="88.0" r="54.0" class="s3"/>
 <rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fadein 0.3s 2.40s ease-out forwards"/>
 <text x="26" y="172" class="lg" style="opacity:0;animation:fadein 0.3s 2.40s ease-out forwards">VS Code</text>
-<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 2.40s ease-out forwards">49.1%</text>
+<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 2.40s ease-out forwards">81.5%</text>
 <rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fadein 0.3s 2.60s ease-out forwards"/>
-<text x="26" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 2.60s ease-out forwards">IntelliJ IDEA</text>
-<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 2.60s ease-out forwards">29.0%</text>
+<text x="26" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 2.60s ease-out forwards">PyCharm</text>
+<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 2.60s ease-out forwards">9.1%</text>
 <rect x="14" y="197" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fadein 0.3s 2.80s ease-out forwards"/>
-<text x="26" y="204" class="lg" style="opacity:0;animation:fadein 0.3s 2.80s ease-out forwards">PyCharm</text>
-<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 2.80s ease-out forwards">16.1%</text>
+<text x="26" y="204" class="lg" style="opacity:0;animation:fadein 0.3s 2.80s ease-out forwards">IntelliJ IDEA</text>
+<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 2.80s ease-out forwards">6.2%</text>
 <rect x="14" y="213" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards"/>
 <text x="26" y="220" class="lg" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards">Claude Code</text>
-<text x="111" y="220" class="lp" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards">5.7%</text>
+<text x="111" y="220" class="lp" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards">3.2%</text>
 </svg>
