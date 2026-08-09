@@ -30,23 +30,23 @@
 <text x="46" y="51.0" class="tick" text-anchor="end">0.9h</text>
 <line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
 <text x="46" y="11.0" class="tick" text-anchor="end">1.2h</text>
-<rect x="55.0" y="168.0" width="68" height="0.0" class="b0"><title>08-02: 0.0h</title></rect>
-<text x="89.0" y="190" class="lab">08-02</text>
-<rect x="133.0" y="137.6" width="68" height="30.4" class="b1"><title>08-03: 0.2h</title></rect>
-<text x="167.0" y="134.6" class="val">13m</text>
-<text x="167.0" y="190" class="lab">08-03</text>
-<rect x="211.0" y="166.9" width="68" height="1.1" class="b2"><title>08-04: 0.0h</title></rect>
-<text x="245.0" y="163.9" class="val">0m</text>
-<text x="245.0" y="190" class="lab">08-04</text>
-<rect x="289.0" y="165.2" width="68" height="2.8" class="b3"><title>08-05: 0.0h</title></rect>
-<text x="323.0" y="162.2" class="val">1m</text>
-<text x="323.0" y="190" class="lab">08-05</text>
-<rect x="367.0" y="8.0" width="68" height="160.0" class="b4"><title>08-06: 1.2h</title></rect>
-<text x="401.0" y="5.0" class="val">1.2h</text>
-<text x="401.0" y="190" class="lab">08-06</text>
-<rect x="445.0" y="125.6" width="68" height="42.4" class="b5"><title>08-07: 0.3h</title></rect>
-<text x="479.0" y="122.6" class="val">18m</text>
-<text x="479.0" y="190" class="lab">08-07</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>08-08: 0.0h</title></rect>
-<text x="557.0" y="190" class="lab">08-08</text>
+<rect x="55.0" y="137.6" width="68" height="30.4" class="b0"><title>08-03: 0.2h</title></rect>
+<text x="89.0" y="134.6" class="val">13m</text>
+<text x="89.0" y="190" class="lab">08-03</text>
+<rect x="133.0" y="166.9" width="68" height="1.1" class="b1"><title>08-04: 0.0h</title></rect>
+<text x="167.0" y="163.9" class="val">0m</text>
+<text x="167.0" y="190" class="lab">08-04</text>
+<rect x="211.0" y="165.2" width="68" height="2.8" class="b2"><title>08-05: 0.0h</title></rect>
+<text x="245.0" y="162.2" class="val">1m</text>
+<text x="245.0" y="190" class="lab">08-05</text>
+<rect x="289.0" y="8.0" width="68" height="160.0" class="b3"><title>08-06: 1.2h</title></rect>
+<text x="323.0" y="5.0" class="val">1.2h</text>
+<text x="323.0" y="190" class="lab">08-06</text>
+<rect x="367.0" y="125.6" width="68" height="42.4" class="b4"><title>08-07: 0.3h</title></rect>
+<text x="401.0" y="122.6" class="val">18m</text>
+<text x="401.0" y="190" class="lab">08-07</text>
+<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>08-08: 0.0h</title></rect>
+<text x="479.0" y="190" class="lab">08-08</text>
+<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>08-09: 0.0h</title></rect>
+<text x="557.0" y="190" class="lab">08-09</text>
 </svg>
