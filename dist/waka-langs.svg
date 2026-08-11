@@ -10,29 +10,29 @@
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
 <g class="bar">
-<rect x="16.0" y="36" width="403.22" height="24" fill="#3b82f6"><title>Markdown: 71.0% (2 hrs 15 mins)</title></rect>
-<rect x="419.2" y="36" width="115.19" height="24" fill="#10b981"><title>C++: 20.3% (38 mins)</title></rect>
-<rect x="534.4" y="36" width="48.56" height="24" fill="#f59e0b"><title>CMake: 8.6% (16 mins)</title></rect>
-<rect x="583.0" y="36" width="1.02" height="24" fill="#ef4444"><title>TypeScript: 0.2% (0 secs)</title></rect>
+<rect x="16.0" y="36" width="431.57" height="24" fill="#3b82f6"><title>Markdown: 76.0% (2 hrs 55 mins)</title></rect>
+<rect x="447.6" y="36" width="95.37" height="24" fill="#10b981"><title>C++: 16.8% (38 mins)</title></rect>
+<rect x="542.9" y="36" width="40.21" height="24" fill="#f59e0b"><title>CMake: 7.1% (16 mins)</title></rect>
+<rect x="583.1" y="36" width="0.85" height="24" fill="#ef4444"><title>TypeScript: 0.1% (0 secs)</title></rect>
 </g>
-<text x="217.6" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">71.0%</text>
-<text x="476.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">20.3%</text>
-<text x="558.7" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">8.6%</text>
+<text x="231.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">76.0%</text>
+<text x="495.3" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">16.8%</text>
+<text x="563.0" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">7.1%</text>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
 <text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Markdown</text>
-<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">71.0%</text>
-<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">2 hrs 15 mins</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">76.0%</text>
+<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">2 hrs 55 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
 <text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">C++</text>
-<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">20.3%</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">16.8%</text>
 <text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">38 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
 <text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">CMake</text>
-<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">8.6%</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">7.1%</text>
 <text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">16 mins</text>
 <rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
 <text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">TypeScript</text>
-<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0.2%</text>
+<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0.1%</text>
 <text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0 secs</text>
 </svg>
