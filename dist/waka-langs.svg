@@ -10,33 +10,48 @@
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
 <g class="bar">
-<rect x="16.0" y="36" width="296.33" height="24" fill="#3b82f6"><title>Markdown: 52.2% (2 hrs 57 mins)</title></rect>
-<rect x="312.3" y="36" width="178.81" height="24" fill="#10b981"><title>Other: 31.5% (1 hr 46 mins)</title></rect>
-<rect x="491.1" y="36" width="64.92" height="24" fill="#f59e0b"><title>C++: 11.4% (38 mins)</title></rect>
-<rect x="556.1" y="36" width="27.38" height="24" fill="#ef4444"><title>CMake: 4.8% (16 mins)</title></rect>
-<rect x="583.4" y="36" width="0.57" height="24" fill="#8b5cf6"><title>TypeScript: 0.1% (0 secs)</title></rect>
+<rect x="16.0" y="36" width="257.13" height="24" fill="#3b82f6"><title>Markdown: 45.3% (2 hrs 59 mins)</title></rect>
+<rect x="273.1" y="36" width="170.80" height="24" fill="#10b981"><title>Other: 30.1% (1 hr 59 mins)</title></rect>
+<rect x="443.9" y="36" width="59.13" height="24" fill="#f59e0b"><title>Python: 10.4% (41 mins)</title></rect>
+<rect x="503.1" y="36" width="55.61" height="24" fill="#ef4444"><title>C++: 9.8% (38 mins)</title></rect>
+<rect x="558.7" y="36" width="23.46" height="24" fill="#8b5cf6"><title>CMake: 4.1% (16 mins)</title></rect>
+<rect x="582.1" y="36" width="0.91" height="24" fill="#06b6d4"><title>JSON: 0.2% (0 secs)</title></rect>
+<rect x="583.0" y="36" width="0.51" height="24" fill="#f97316"><title>TypeScript: 0.1% (0 secs)</title></rect>
 </g>
-<text x="164.2" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">52.2%</text>
-<text x="523.6" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">11.4%</text>
+<text x="144.6" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">45.3%</text>
+<text x="473.5" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">10.4%</text>
+<text x="530.9" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">9.8%</text>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
 <text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Markdown</text>
-<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">52.2%</text>
-<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">2 hrs 57 mins</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">45.3%</text>
+<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">2 hrs 59 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
 <text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">Other</text>
-<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">31.5%</text>
-<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">1 hr 46 mins</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">30.1%</text>
+<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">1 hr 59 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
-<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">C++</text>
-<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">11.4%</text>
-<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">38 mins</text>
+<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">Python</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">10.4%</text>
+<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">41 mins</text>
 <rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
-<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">CMake</text>
-<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">4.8%</text>
-<text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">16 mins</text>
-<rect x="16" y="135" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
-<text x="28" y="142" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">TypeScript</text>
-<text x="138" y="142" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0.1%</text>
-<text x="178" y="142" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0 secs</text>
+<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">C++</text>
+<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">9.8%</text>
+<text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">38 mins</text>
+<rect x="316" y="75" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
+<text x="328" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">CMake</text>
+<text x="438" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">4.1%</text>
+<text x="478" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">16 mins</text>
+<rect x="316" y="90" width="8" height="8" rx="2" fill="#06b6d4" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards"/>
+<text x="328" y="97" class="sw" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">JSON</text>
+<text x="438" y="97" class="sp" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">0.2%</text>
+<text x="478" y="97" class="st" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">0 secs</text>
+<rect x="316" y="105" width="8" height="8" rx="2" fill="#f97316" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards"/>
+<text x="328" y="112" class="sw" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards">TypeScript</text>
+<text x="438" y="112" class="sp" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards">0.1%</text>
+<text x="478" y="112" class="st" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards">0 secs</text>
+<rect x="316" y="120" width="8" height="8" rx="2" fill="#84cc16" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards"/>
+<text x="328" y="127" class="sw" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards">YAML</text>
+<text x="438" y="127" class="sp" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards">0.1%</text>
+<text x="478" y="127" class="st" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards">0 secs</text>
 </svg>
