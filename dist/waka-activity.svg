@@ -23,29 +23,28 @@
 <line x1="50" y1="168.0" x2="588" y2="168.0" class="grid"/>
 <text x="46" y="171.0" class="tick" text-anchor="end">0.0h</text>
 <line x1="50" y1="128.0" x2="588" y2="128.0" class="grid"/>
-<text x="46" y="131.0" class="tick" text-anchor="end">0.5h</text>
+<text x="46" y="131.0" class="tick" text-anchor="end">0.2h</text>
 <line x1="50" y1="88.0" x2="588" y2="88.0" class="grid"/>
-<text x="46" y="91.0" class="tick" text-anchor="end">0.9h</text>
+<text x="46" y="91.0" class="tick" text-anchor="end">0.5h</text>
 <line x1="50" y1="48.0" x2="588" y2="48.0" class="grid"/>
-<text x="46" y="51.0" class="tick" text-anchor="end">1.4h</text>
+<text x="46" y="51.0" class="tick" text-anchor="end">0.7h</text>
 <line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
-<text x="46" y="11.0" class="tick" text-anchor="end">1.8h</text>
-<rect x="55.0" y="8.0" width="68" height="160.0" class="b0"><title>08-11: 1.8h</title></rect>
-<text x="89.0" y="5.0" class="val">1.8h</text>
-<text x="89.0" y="190" class="lab">08-11</text>
-<rect x="133.0" y="82.5" width="68" height="85.5" class="b1"><title>08-12: 1.0h</title></rect>
-<text x="167.0" y="79.5" class="val">58m</text>
-<text x="167.0" y="190" class="lab">08-12</text>
-<rect x="211.0" y="168.0" width="68" height="0.0" class="b2"><title>08-13: 0.0h</title></rect>
-<text x="245.0" y="190" class="lab">08-13</text>
-<rect x="289.0" y="102.1" width="68" height="65.9" class="b3"><title>08-14: 0.7h</title></rect>
-<text x="323.0" y="99.1" class="val">44m</text>
-<text x="323.0" y="190" class="lab">08-14</text>
-<rect x="367.0" y="121.4" width="68" height="46.6" class="b4"><title>08-15: 0.5h</title></rect>
-<text x="401.0" y="118.4" class="val">31m</text>
-<text x="401.0" y="190" class="lab">08-15</text>
-<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>08-16: 0.0h</title></rect>
-<text x="479.0" y="190" class="lab">08-16</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>08-17: 0.0h</title></rect>
-<text x="557.0" y="190" class="lab">08-17</text>
+<text x="46" y="11.0" class="tick" text-anchor="end">1.0h</text>
+<rect x="55.0" y="8.0" width="68" height="160.0" class="b0"><title>08-12: 1.0h</title></rect>
+<text x="89.0" y="5.0" class="val">58m</text>
+<text x="89.0" y="190" class="lab">08-12</text>
+<rect x="133.0" y="168.0" width="68" height="0.0" class="b1"><title>08-13: 0.0h</title></rect>
+<text x="167.0" y="190" class="lab">08-13</text>
+<rect x="211.0" y="44.7" width="68" height="123.3" class="b2"><title>08-14: 0.7h</title></rect>
+<text x="245.0" y="41.7" class="val">44m</text>
+<text x="245.0" y="190" class="lab">08-14</text>
+<rect x="289.0" y="80.7" width="68" height="87.3" class="b3"><title>08-15: 0.5h</title></rect>
+<text x="323.0" y="77.7" class="val">31m</text>
+<text x="323.0" y="190" class="lab">08-15</text>
+<rect x="367.0" y="168.0" width="68" height="0.0" class="b4"><title>08-16: 0.0h</title></rect>
+<text x="401.0" y="190" class="lab">08-16</text>
+<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>08-17: 0.0h</title></rect>
+<text x="479.0" y="190" class="lab">08-17</text>
+<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>08-18: 0.0h</title></rect>
+<text x="557.0" y="190" class="lab">08-18</text>
 </svg>
