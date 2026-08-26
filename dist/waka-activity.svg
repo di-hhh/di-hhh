@@ -30,21 +30,20 @@
 <text x="46" y="51.0" class="tick" text-anchor="end">4.3h</text>
 <line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
 <text x="46" y="11.0" class="tick" text-anchor="end">5.8h</text>
-<rect x="55.0" y="156.0" width="68" height="12.0" class="b0"><title>08-19: 0.4h</title></rect>
-<text x="89.0" y="153.0" class="val">26m</text>
-<text x="89.0" y="190" class="lab">08-19</text>
-<rect x="133.0" y="8.0" width="68" height="160.0" class="b1"><title>08-20: 5.8h</title></rect>
-<text x="167.0" y="5.0" class="val">5.8h</text>
-<text x="167.0" y="190" class="lab">08-20</text>
-<rect x="211.0" y="142.4" width="68" height="25.6" class="b2"><title>08-21: 0.9h</title></rect>
-<text x="245.0" y="139.4" class="val">55m</text>
-<text x="245.0" y="190" class="lab">08-21</text>
-<rect x="289.0" y="168.0" width="68" height="0.0" class="b3"><title>08-22: 0.0h</title></rect>
-<text x="323.0" y="190" class="lab">08-22</text>
-<rect x="367.0" y="168.0" width="68" height="0.0" class="b4"><title>08-23: 0.0h</title></rect>
-<text x="401.0" y="190" class="lab">08-23</text>
-<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>08-24: 0.0h</title></rect>
-<text x="479.0" y="190" class="lab">08-24</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>08-25: 0.0h</title></rect>
-<text x="557.0" y="190" class="lab">08-25</text>
+<rect x="55.0" y="8.0" width="68" height="160.0" class="b0"><title>08-20: 5.8h</title></rect>
+<text x="89.0" y="5.0" class="val">5.8h</text>
+<text x="89.0" y="190" class="lab">08-20</text>
+<rect x="133.0" y="142.4" width="68" height="25.6" class="b1"><title>08-21: 0.9h</title></rect>
+<text x="167.0" y="139.4" class="val">55m</text>
+<text x="167.0" y="190" class="lab">08-21</text>
+<rect x="211.0" y="168.0" width="68" height="0.0" class="b2"><title>08-22: 0.0h</title></rect>
+<text x="245.0" y="190" class="lab">08-22</text>
+<rect x="289.0" y="168.0" width="68" height="0.0" class="b3"><title>08-23: 0.0h</title></rect>
+<text x="323.0" y="190" class="lab">08-23</text>
+<rect x="367.0" y="168.0" width="68" height="0.0" class="b4"><title>08-24: 0.0h</title></rect>
+<text x="401.0" y="190" class="lab">08-24</text>
+<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>08-25: 0.0h</title></rect>
+<text x="479.0" y="190" class="lab">08-25</text>
+<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>08-26: 0.0h</title></rect>
+<text x="557.0" y="190" class="lab">08-26</text>
 </svg>
