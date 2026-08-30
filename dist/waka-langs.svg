@@ -10,31 +10,37 @@
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
 <g class="bar">
-<rect x="16.0" y="36" width="494.10" height="24" fill="#3b82f6"><title>Markdown: 87.0% (1 hr 24 mins)</title></rect>
-<rect x="510.1" y="36" width="51.12" height="24" fill="#10b981"><title>Other: 9.0% (8 mins)</title></rect>
-<rect x="561.2" y="36" width="13.97" height="24" fill="#f59e0b"><title>CSV: 2.5% (2 mins)</title></rect>
-<rect x="575.2" y="36" width="8.52" height="24" fill="#ef4444"><title>YAML: 1.5% (1 min)</title></rect>
+<rect x="16.0" y="36" width="290.99" height="24" fill="#3b82f6"><title>Markdown: 51.2% (1 hr 31 mins)</title></rect>
+<rect x="307.0" y="36" width="186.53" height="24" fill="#10b981"><title>Other: 32.8% (58 mins)</title></rect>
+<rect x="493.5" y="36" width="78.10" height="24" fill="#f59e0b"><title>Text: 13.8% (24 mins)</title></rect>
+<rect x="571.6" y="36" width="7.61" height="24" fill="#ef4444"><title>CSV: 1.3% (2 mins)</title></rect>
+<rect x="579.2" y="36" width="4.66" height="24" fill="#8b5cf6"><title>YAML: 0.8% (1 min)</title></rect>
 </g>
-<text x="263.1" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">87.0%</text>
+<text x="161.5" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">51.2%</text>
+<text x="532.6" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">13.8%</text>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
 <text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Markdown</text>
-<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">87.0%</text>
-<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">1 hr 24 mins</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">51.2%</text>
+<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">1 hr 31 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
 <text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">Other</text>
-<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">9.0%</text>
-<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">8 mins</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">32.8%</text>
+<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">58 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
-<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">CSV</text>
-<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">2.5%</text>
-<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">2 mins</text>
-<rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
-<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">YAML</text>
-<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">1.5%</text>
-<text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">1 min</text>
-<rect x="16" y="135" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
-<text x="28" y="142" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">JSON</text>
-<text x="138" y="142" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0.0%</text>
-<text x="178" y="142" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0 secs</text>
+<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">Text</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">13.8%</text>
+<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">24 mins</text>
+<rect x="316" y="75" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
+<text x="328" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">CSV</text>
+<text x="438" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">1.3%</text>
+<text x="478" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">2 mins</text>
+<rect x="316" y="90" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
+<text x="328" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">YAML</text>
+<text x="438" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0.8%</text>
+<text x="478" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">1 min</text>
+<rect x="316" y="105" width="8" height="8" rx="2" fill="#06b6d4" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards"/>
+<text x="328" y="112" class="sw" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">JSON</text>
+<text x="438" y="112" class="sp" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">0.0%</text>
+<text x="478" y="112" class="st" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">0 secs</text>
 </svg>
