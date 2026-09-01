@@ -11,19 +11,19 @@
 <!-- ===== WakaTime Stats ===== -->
 <!-- Auto-filled by .github/workflows/wakatime.yml via update_waka.py -->
 <!--START_SECTION:waka-->
-📊 **Weekly Coding Stats**（2026-08-23 ~ 2026-08-30）  
+📊 **Weekly Coding Stats**（2026-08-24 ~ 2026-08-31）  
 
 <img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-activity.svg" width="600" alt="Daily Coding Activity"/>  
 
-⏱️ **Total:** 6 hrs 17 mins  
-📅 **Daily Average:** 1 hr 34 mins  
+⏱️ **Total:** 7 hrs 27 mins  
+📅 **Daily Average:** 1 hr 29 mins  
 ⭐ **Best Day:** Sun Aug 30 — 4 hrs 18 mins  
 
 <table><tr><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-ai.svg" width="280" alt="🤖 AI vs Manual Coding"/></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-editors.svg" width="280" alt="💻 Editors"/></td></tr></table>
 
 <table><tr><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-os.svg" width="280" alt="🖥️ Operating Systems"/></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-categories.svg" width="280" alt="📂 Categories"/></td></tr></table>
 
-🤖 **AI Details:** 5.3K lines added / 4 deleted  ·  Tokens: 3.9M in / 475.1K out  ·  Sessions: 7  ·  Est. cost: $0.00  
+🤖 **AI Details:** 5.4K lines added / 4 deleted  ·  Tokens: 4.2M in / 577.9K out  ·  Sessions: 9  ·  Est. cost: $0.00  
 
 <img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-langs.svg" width="600" alt="📝 Languages"/>
 <!--END_SECTION:waka-->
