@@ -10,54 +10,37 @@
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
 <g class="bar">
-<rect x="16.0" y="36" width="215.73" height="24" fill="#3b82f6"><title>Markdown: 38.0% (52 mins)</title></rect>
-<rect x="231.7" y="36" width="202.61" height="24" fill="#10b981"><title>Python: 35.7% (49 mins)</title></rect>
-<rect x="434.3" y="36" width="50.67" height="24" fill="#f59e0b"><title>Other: 8.9% (12 mins)</title></rect>
-<rect x="485.0" y="36" width="43.57" height="24" fill="#ef4444"><title>Jupyter: 7.7% (10 mins)</title></rect>
-<rect x="528.6" y="36" width="42.43" height="24" fill="#8b5cf6"><title>Java: 7.5% (10 mins)</title></rect>
-<rect x="571.0" y="36" width="8.63" height="24" fill="#06b6d4"><title>Gradle: 1.5% (2 mins)</title></rect>
-<rect x="579.6" y="36" width="3.52" height="24" fill="#f97316"><title>YAML: 0.6% (0 secs)</title></rect>
-<rect x="583.1" y="36" width="0.85" height="24" fill="#84cc16"><title>Bash: 0.1% (0 secs)</title></rect>
+<rect x="16.0" y="36" width="283.32" height="24" fill="#3b82f6"><title>Other: 49.9% (12 mins)</title></rect>
+<rect x="299.3" y="36" width="199.94" height="24" fill="#10b981"><title>Java: 35.2% (8 mins)</title></rect>
+<rect x="499.3" y="36" width="78.95" height="24" fill="#f59e0b"><title>Jupyter: 13.9% (3 mins)</title></rect>
+<rect x="578.2" y="36" width="4.77" height="24" fill="#ef4444"><title>Bash: 0.8% (0 secs)</title></rect>
+<rect x="583.0" y="36" width="1.02" height="24" fill="#8b5cf6"><title>Gradle: 0.2% (0 secs)</title></rect>
 </g>
-<text x="123.9" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">38.0%</text>
-<text x="333.0" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">35.7%</text>
-<text x="506.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">7.7%</text>
-<text x="549.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">7.5%</text>
+<text x="399.3" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">35.2%</text>
+<text x="538.7" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">13.9%</text>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
-<text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Markdown</text>
-<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">38.0%</text>
-<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">52 mins</text>
+<text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Other</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">49.9%</text>
+<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">12 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
-<text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">Python</text>
-<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">35.7%</text>
-<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">49 mins</text>
+<text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">Java</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">35.2%</text>
+<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">8 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
-<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">Other</text>
-<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">8.9%</text>
-<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">12 mins</text>
-<rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
-<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">Jupyter</text>
-<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">7.7%</text>
-<text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">10 mins</text>
-<rect x="16" y="135" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
-<text x="28" y="142" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">Java</text>
-<text x="138" y="142" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">7.5%</text>
-<text x="178" y="142" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">10 mins</text>
-<rect x="316" y="75" width="8" height="8" rx="2" fill="#06b6d4" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards"/>
-<text x="328" y="82" class="sw" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">Gradle</text>
-<text x="438" y="82" class="sp" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">1.5%</text>
-<text x="478" y="82" class="st" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">2 mins</text>
-<rect x="316" y="90" width="8" height="8" rx="2" fill="#f97316" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards"/>
-<text x="328" y="97" class="sw" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards">YAML</text>
-<text x="438" y="97" class="sp" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards">0.6%</text>
-<text x="478" y="97" class="st" style="opacity:0;animation:fi 0.3s 3.20s ease-out forwards">0 secs</text>
-<rect x="316" y="105" width="8" height="8" rx="2" fill="#84cc16" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards"/>
-<text x="328" y="112" class="sw" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards">Bash</text>
-<text x="438" y="112" class="sp" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards">0.1%</text>
-<text x="478" y="112" class="st" style="opacity:0;animation:fi 0.3s 3.40s ease-out forwards">0 secs</text>
-<rect x="316" y="120" width="8" height="8" rx="2" fill="#ec4899" style="opacity:0;animation:fi 0.3s 3.60s ease-out forwards"/>
-<text x="328" y="127" class="sw" style="opacity:0;animation:fi 0.3s 3.60s ease-out forwards">Groovy</text>
-<text x="438" y="127" class="sp" style="opacity:0;animation:fi 0.3s 3.60s ease-out forwards">0.0%</text>
-<text x="478" y="127" class="st" style="opacity:0;animation:fi 0.3s 3.60s ease-out forwards">0 secs</text>
+<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">Jupyter</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">13.9%</text>
+<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">3 mins</text>
+<rect x="316" y="75" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
+<text x="328" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">Bash</text>
+<text x="438" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0.8%</text>
+<text x="478" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0 secs</text>
+<rect x="316" y="90" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
+<text x="328" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">Gradle</text>
+<text x="438" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0.2%</text>
+<text x="478" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0 secs</text>
+<rect x="316" y="105" width="8" height="8" rx="2" fill="#06b6d4" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards"/>
+<text x="328" y="112" class="sw" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">Groovy</text>
+<text x="438" y="112" class="sp" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">0.0%</text>
+<text x="478" y="112" class="st" style="opacity:0;animation:fi 0.3s 3.00s ease-out forwards">0 secs</text>
 </svg>
