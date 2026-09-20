@@ -30,24 +30,23 @@
 <text x="46" y="51.0" class="tick" text-anchor="end">2.3h</text>
 <line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
 <text x="46" y="11.0" class="tick" text-anchor="end">3.1h</text>
-<rect x="55.0" y="136.4" width="68" height="31.6" class="b0"><title>09-13: 0.6h</title></rect>
-<text x="89.0" y="133.4" class="val">36m</text>
-<text x="89.0" y="190" class="lab">09-13</text>
-<rect x="133.0" y="8.0" width="68" height="160.0" class="b1"><title>09-14: 3.1h</title></rect>
-<text x="167.0" y="5.0" class="val">3.1h</text>
-<text x="167.0" y="190" class="lab">09-14</text>
-<rect x="211.0" y="130.5" width="68" height="37.5" class="b2"><title>09-15: 0.7h</title></rect>
-<text x="245.0" y="127.5" class="val">43m</text>
-<text x="245.0" y="190" class="lab">09-15</text>
-<rect x="289.0" y="155.6" width="68" height="12.4" class="b3"><title>09-16: 0.2h</title></rect>
-<text x="323.0" y="152.6" class="val">14m</text>
-<text x="323.0" y="190" class="lab">09-16</text>
-<rect x="367.0" y="152.5" width="68" height="15.5" class="b4"><title>09-17: 0.3h</title></rect>
-<text x="401.0" y="149.5" class="val">17m</text>
-<text x="401.0" y="190" class="lab">09-17</text>
-<rect x="445.0" y="130.6" width="68" height="37.4" class="b5"><title>09-18: 0.7h</title></rect>
-<text x="479.0" y="127.6" class="val">43m</text>
-<text x="479.0" y="190" class="lab">09-18</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>09-19: 0.0h</title></rect>
-<text x="557.0" y="190" class="lab">09-19</text>
+<rect x="55.0" y="8.0" width="68" height="160.0" class="b0"><title>09-14: 3.1h</title></rect>
+<text x="89.0" y="5.0" class="val">3.1h</text>
+<text x="89.0" y="190" class="lab">09-14</text>
+<rect x="133.0" y="130.5" width="68" height="37.5" class="b1"><title>09-15: 0.7h</title></rect>
+<text x="167.0" y="127.5" class="val">43m</text>
+<text x="167.0" y="190" class="lab">09-15</text>
+<rect x="211.0" y="155.6" width="68" height="12.4" class="b2"><title>09-16: 0.2h</title></rect>
+<text x="245.0" y="152.6" class="val">14m</text>
+<text x="245.0" y="190" class="lab">09-16</text>
+<rect x="289.0" y="152.5" width="68" height="15.5" class="b3"><title>09-17: 0.3h</title></rect>
+<text x="323.0" y="149.5" class="val">17m</text>
+<text x="323.0" y="190" class="lab">09-17</text>
+<rect x="367.0" y="130.6" width="68" height="37.4" class="b4"><title>09-18: 0.7h</title></rect>
+<text x="401.0" y="127.6" class="val">43m</text>
+<text x="401.0" y="190" class="lab">09-18</text>
+<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>09-19: 0.0h</title></rect>
+<text x="479.0" y="190" class="lab">09-19</text>
+<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>09-20: 0.0h</title></rect>
+<text x="557.0" y="190" class="lab">09-20</text>
 </svg>
