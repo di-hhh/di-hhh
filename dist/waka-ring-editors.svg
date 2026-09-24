@@ -7,16 +7,16 @@
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
-@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:264.2379 75.0541}}
+@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:253.9598 85.3322}}
 .s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:84.8230;stroke-linecap:butt}
-@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:40.5642 298.7278}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-179.4149;stroke-linecap:butt}
-@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:22.8958 316.3962}}
-.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-219.9792;stroke-linecap:butt}
-@keyframes s3{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:6.8103 332.4817}}
-.s3{animation:s3 0.6s 1.80s ease-out forwards;fill:none;stroke:#ef4444;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-242.8750;stroke-linecap:butt}
-@keyframes s4{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:4.7837 334.5083}}
-.s4{animation:s4 0.6s 2.40s ease-out forwards;fill:none;stroke:#8b5cf6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-249.6853;stroke-linecap:butt}
+@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:46.1192 293.1728}}
+.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-169.1368;stroke-linecap:butt}
+@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:26.0313 313.2608}}
+.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-215.2561;stroke-linecap:butt}
+@keyframes s3{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:7.7429 331.5491}}
+.s3{animation:s3 0.6s 1.80s ease-out forwards;fill:none;stroke:#ef4444;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-241.2873;stroke-linecap:butt}
+@keyframes s4{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:5.4388 333.8532}}
+.s4{animation:s4 0.6s 2.40s ease-out forwards;fill:none;stroke:#8b5cf6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-249.0302;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">💻 Editors</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>
@@ -26,17 +26,17 @@
 <circle cx="98.0" cy="88.0" r="54.0" class="s4"/>
 <rect x="14" y="165" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards"/>
 <text x="26" y="172" class="lg" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards">VS Code</text>
-<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards">77.9%</text>
+<text x="111" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 3.00s ease-out forwards">74.8%</text>
 <rect x="14" y="181" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fadein 0.3s 3.20s ease-out forwards"/>
 <text x="26" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 3.20s ease-out forwards">Cursor</text>
-<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 3.20s ease-out forwards">12.0%</text>
+<text x="111" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 3.20s ease-out forwards">13.6%</text>
 <rect x="14" y="197" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fadein 0.3s 3.40s ease-out forwards"/>
 <text x="26" y="204" class="lg" style="opacity:0;animation:fadein 0.3s 3.40s ease-out forwards">IntelliJ IDEA</text>
-<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 3.40s ease-out forwards">6.7%</text>
+<text x="111" y="204" class="lp" style="opacity:0;animation:fadein 0.3s 3.40s ease-out forwards">7.7%</text>
 <rect x="154" y="165" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fadein 0.3s 3.60s ease-out forwards"/>
 <text x="166" y="172" class="lg" style="opacity:0;animation:fadein 0.3s 3.60s ease-out forwards">PyCharm</text>
-<text x="251" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 3.60s ease-out forwards">2.0%</text>
+<text x="251" y="172" class="lp" style="opacity:0;animation:fadein 0.3s 3.60s ease-out forwards">2.3%</text>
 <rect x="154" y="181" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fadein 0.3s 3.80s ease-out forwards"/>
 <text x="166" y="188" class="lg" style="opacity:0;animation:fadein 0.3s 3.80s ease-out forwards">Codex Vscode</text>
-<text x="251" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 3.80s ease-out forwards">1.4%</text>
+<text x="251" y="188" class="lp" style="opacity:0;animation:fadein 0.3s 3.80s ease-out forwards">1.6%</text>
 </svg>
