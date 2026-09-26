@@ -10,24 +10,30 @@
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
 <g class="bar">
-<rect x="16.0" y="36" width="304.50" height="24" fill="#3b82f6"><title>Markdown: 53.6% (46 mins)</title></rect>
-<rect x="320.5" y="36" width="176.48" height="24" fill="#10b981"><title>PowerShell: 31.1% (26 mins)</title></rect>
-<rect x="497.0" y="36" width="87.02" height="24" fill="#f59e0b"><title>C++: 15.3% (13 mins)</title></rect>
+<rect x="16.0" y="36" width="273.66" height="24" fill="#3b82f6"><title>Markdown: 48.2% (50 mins)</title></rect>
+<rect x="289.7" y="36" width="145.69" height="24" fill="#10b981"><title>PowerShell: 25.6% (26 mins)</title></rect>
+<rect x="435.4" y="36" width="76.85" height="24" fill="#f59e0b"><title>JSON: 13.5% (14 mins)</title></rect>
+<rect x="512.2" y="36" width="71.80" height="24" fill="#ef4444"><title>C++: 12.7% (13 mins)</title></rect>
 </g>
-<text x="168.3" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">53.6%</text>
-<text x="408.7" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">31.1%</text>
-<text x="540.5" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">15.3%</text>
+<text x="152.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">48.2%</text>
+<text x="362.5" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">25.6%</text>
+<text x="473.8" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">13.5%</text>
+<text x="548.1" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">12.7%</text>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
 <text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Markdown</text>
-<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">53.6%</text>
-<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">46 mins</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">48.2%</text>
+<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">50 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
 <text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">PowerShell</text>
-<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">31.1%</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">25.6%</text>
 <text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">26 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
-<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">C++</text>
-<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">15.3%</text>
-<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">13 mins</text>
+<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">JSON</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">13.5%</text>
+<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">14 mins</text>
+<rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
+<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">C++</text>
+<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">12.7%</text>
+<text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">13 mins</text>
 </svg>
