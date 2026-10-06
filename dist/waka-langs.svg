@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 150" width="600" height="150" role="img">
+<style>
+@keyframes r{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes fi{from{opacity:0}to{opacity:1}}
+.bar{animation:r 2.0s ease-out forwards;transform-origin:16px 48px}
+.tt{fill:#111827;font-size:13px;font-weight:600;font-family:system-ui,sans-serif}
+.sw{fill:#374151;font-size:10px;font-family:system-ui,sans-serif}
+.sp{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif}
+.st{fill:#6b7280;font-size:9px;font-family:system-ui,sans-serif}
+</style>
+<text x="16" y="20" class="tt">📝 Languages</text>
+<g class="bar">
+<rect x="16.0" y="36" width="283.26" height="24" fill="#3b82f6"><title>Markdown: 49.9% (12 mins)</title></rect>
+<rect x="299.3" y="36" width="214.99" height="24" fill="#10b981"><title>Python: 37.9% (9 mins)</title></rect>
+<rect x="514.2" y="36" width="54.24" height="24" fill="#f59e0b"><title>Java: 9.6% (2 mins)</title></rect>
+<rect x="568.5" y="36" width="14.48" height="24" fill="#ef4444"><title>Jupyter: 2.5% (0 secs)</title></rect>
+<rect x="583.0" y="36" width="1.02" height="24" fill="#8b5cf6"><title>Gradle: 0.2% (0 secs)</title></rect>
+</g>
+<text x="157.6" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">49.9%</text>
+<text x="406.8" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">37.9%</text>
+<text x="541.4" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">9.6%</text>
+<rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
+<rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
+<text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">Markdown</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">49.9%</text>
+<text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">12 mins</text>
+<rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
+<text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">Python</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">37.9%</text>
+<text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">9 mins</text>
+<rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
+<text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">Java</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">9.6%</text>
+<text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">2 mins</text>
+<rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
+<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">Jupyter</text>
+<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">2.5%</text>
+<text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0 secs</text>
+<rect x="16" y="135" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
+<text x="28" y="142" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">Gradle</text>
+<text x="138" y="142" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0.2%</text>
+<text x="178" y="142" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0 secs</text>
+</svg>
