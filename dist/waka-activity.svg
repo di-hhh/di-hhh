@@ -30,20 +30,20 @@
 <text x="46" y="51.0" class="tick" text-anchor="end">0.3h</text>
 <line x1="50" y1="8.0" x2="588" y2="8.0" class="grid"/>
 <text x="46" y="11.0" class="tick" text-anchor="end">0.4h</text>
-<rect x="55.0" y="168.0" width="68" height="0.0" class="b0"><title>10-01: 0.0h</title></rect>
-<text x="89.0" y="190" class="lab">10-01</text>
-<rect x="133.0" y="8.0" width="68" height="160.0" class="b1"><title>10-02: 0.4h</title></rect>
-<text x="167.0" y="5.0" class="val">25m</text>
-<text x="167.0" y="190" class="lab">10-02</text>
-<rect x="211.0" y="168.0" width="68" height="0.0" class="b2"><title>10-03: 0.0h</title></rect>
-<text x="245.0" y="190" class="lab">10-03</text>
-<rect x="289.0" y="168.0" width="68" height="0.0" class="b3"><title>10-04: 0.0h</title></rect>
-<text x="323.0" y="190" class="lab">10-04</text>
-<rect x="367.0" y="168.0" width="68" height="0.0" class="b4"><title>10-05: 0.0h</title></rect>
-<text x="401.0" y="190" class="lab">10-05</text>
-<rect x="445.0" y="133.7" width="68" height="34.3" class="b5"><title>10-06: 0.1h</title></rect>
-<text x="479.0" y="130.7" class="val">5m</text>
-<text x="479.0" y="190" class="lab">10-06</text>
-<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>10-07: 0.0h</title></rect>
-<text x="557.0" y="190" class="lab">10-07</text>
+<rect x="55.0" y="8.0" width="68" height="160.0" class="b0"><title>10-02: 0.4h</title></rect>
+<text x="89.0" y="5.0" class="val">25m</text>
+<text x="89.0" y="190" class="lab">10-02</text>
+<rect x="133.0" y="168.0" width="68" height="0.0" class="b1"><title>10-03: 0.0h</title></rect>
+<text x="167.0" y="190" class="lab">10-03</text>
+<rect x="211.0" y="168.0" width="68" height="0.0" class="b2"><title>10-04: 0.0h</title></rect>
+<text x="245.0" y="190" class="lab">10-04</text>
+<rect x="289.0" y="168.0" width="68" height="0.0" class="b3"><title>10-05: 0.0h</title></rect>
+<text x="323.0" y="190" class="lab">10-05</text>
+<rect x="367.0" y="133.7" width="68" height="34.3" class="b4"><title>10-06: 0.1h</title></rect>
+<text x="401.0" y="130.7" class="val">5m</text>
+<text x="401.0" y="190" class="lab">10-06</text>
+<rect x="445.0" y="168.0" width="68" height="0.0" class="b5"><title>10-07: 0.0h</title></rect>
+<text x="479.0" y="190" class="lab">10-07</text>
+<rect x="523.0" y="168.0" width="68" height="0.0" class="b6"><title>10-08: 0.0h</title></rect>
+<text x="557.0" y="190" class="lab">10-08</text>
 </svg>
