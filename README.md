@@ -11,21 +11,16 @@
 <!-- ===== WakaTime Stats ===== -->
 <!-- Auto-filled by .github/workflows/wakatime.yml via update_waka.py -->
 <!--START_SECTION:waka-->
-📊 **Weekly Coding Stats**（2026-10-17 ~ 2026-10-24）  
+📊 **Weekly Coding Stats**（2026-10-18 ~ 2026-10-25）  
 
 <img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-activity.svg" width="600" alt="Daily Coding Activity"/>  
 
-⏱️ **Total:** 2 mins  
-📅 **Daily Average:** 2 mins  
-⭐ **Best Day:** Sun Oct 18 — 2 mins  
-
-<table><tr><td></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-editors.svg" width="280" alt="💻 Editors"/></td></tr></table>
-
-<table><tr><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-os.svg" width="280" alt="🖥️ Operating Systems"/></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-categories.svg" width="280" alt="📂 Categories"/></td></tr></table>
+⏱️ **Total:** 0 secs  
+📅 **Daily Average:** 0 secs  
+⭐ **Best Day:** N/A  
 
 🤖 **AI Details:** 0 lines added / 0 deleted  ·  Tokens: 0 in / 0 out  ·  Sessions: 0  ·  Est. cost: $0.00  
 
-<img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-langs.svg" width="600" alt="📝 Languages"/>
 <!--END_SECTION:waka-->
 
 <!-- ===== Year Progress ===== -->
