@@ -7,16 +7,16 @@
 .cu{fill:#6b7280;font-size:10px;font-family:system-ui,sans-serif;text-anchor:middle}
 .swatch{opacity:0;animation:fadein 0.3s ease-out forwards}
 @keyframes fadein{from{opacity:0}to{opacity:1}}
-@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:316.9940 22.2980}}
+@keyframes s0{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:316.9100 22.3820}}
 .s0{animation:s0 0.6s 0.00s ease-out forwards;fill:none;stroke:#3b82f6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:84.8230;stroke-linecap:butt}
-@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:13.1472 326.1448}}
-.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-232.1710;stroke-linecap:butt}
-@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:6.2839 333.0081}}
-.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-245.3182;stroke-linecap:butt}
-@keyframes s3{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:2.6927 336.5993}}
-.s3{animation:s3 0.6s 1.80s ease-out forwards;fill:none;stroke:#ef4444;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-251.6021;stroke-linecap:butt}
-@keyframes s4{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:0.1742 339.1178}}
-.s4{animation:s4 0.6s 2.40s ease-out forwards;fill:none;stroke:#8b5cf6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-254.2948;stroke-linecap:butt}
+@keyframes s1{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:13.1968 326.0952}}
+.s1{animation:s1 0.6s 0.60s ease-out forwards;fill:none;stroke:#10b981;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-232.0870;stroke-linecap:butt}
+@keyframes s2{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:6.3076 332.9844}}
+.s2{animation:s2 0.6s 1.20s ease-out forwards;fill:none;stroke:#f59e0b;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-245.2837;stroke-linecap:butt}
+@keyframes s3{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:2.7029 336.5892}}
+.s3{animation:s3 0.6s 1.80s ease-out forwards;fill:none;stroke:#ef4444;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-251.5913;stroke-linecap:butt}
+@keyframes s4{from{stroke-dasharray:0 339.2920}to{stroke-dasharray:0.1748 339.1172}}
+.s4{animation:s4 0.6s 2.40s ease-out forwards;fill:none;stroke:#8b5cf6;stroke-width:20.0;stroke-dasharray:0 339.2920;stroke-dashoffset:-254.2942;stroke-linecap:butt}
 </style>
 <text x="98" y="16" class="tl">💻 Editors</text>
 <circle cx="98.0" cy="88.0" r="54.0" class="s0"/>
