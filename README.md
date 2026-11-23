@@ -11,13 +11,13 @@
 <!-- ===== WakaTime Stats ===== -->
 <!-- Auto-filled by .github/workflows/wakatime.yml via update_waka.py -->
 <!--START_SECTION:waka-->
-📊 **Weekly Coding Stats**（2026-11-14 ~ 2026-11-21）  
+📊 **Weekly Coding Stats**（2026-11-15 ~ 2026-11-22）  
 
 <img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-activity.svg" width="600" alt="Daily Coding Activity"/>  
 
-⏱️ **Total:** 32 mins  
-📅 **Daily Average:** 16 mins  
-⭐ **Best Day:** Sun Nov 15 — 20 mins  
+⏱️ **Total:** 1 hr 18 mins  
+📅 **Daily Average:** 26 mins  
+⭐ **Best Day:** Sun Nov 22 — 1 hr 5 mins  
 
 <table><tr><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-ai.svg" width="280" alt="🤖 AI vs Manual Coding"/></td><td><img src="https://raw.githubusercontent.com/di-hhh/di-hhh/main/dist/waka-ring-editors.svg" width="280" alt="💻 Editors"/></td></tr></table>
 
