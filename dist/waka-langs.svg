@@ -10,34 +10,29 @@
 </style>
 <text x="16" y="20" class="tt">📝 Languages</text>
 <g class="bar">
-<rect x="16.0" y="36" width="378.52" height="24" fill="#3b82f6"><title>C++: 66.6% (52 mins)</title></rect>
-<rect x="394.5" y="36" width="91.05" height="24" fill="#10b981"><title>JSON: 16.0% (12 mins)</title></rect>
-<rect x="485.6" y="36" width="89.80" height="24" fill="#f59e0b"><title>Markdown: 15.8% (12 mins)</title></rect>
-<rect x="575.4" y="36" width="6.70" height="24" fill="#ef4444"><title>Java: 1.2% (0 secs)</title></rect>
-<rect x="582.1" y="36" width="1.93" height="24" fill="#8b5cf6"><title>C: 0.3% (0 secs)</title></rect>
+<rect x="16.0" y="36" width="383.06" height="24" fill="#3b82f6"><title>C++: 67.4% (52 mins)</title></rect>
+<rect x="399.1" y="36" width="92.13" height="24" fill="#10b981"><title>JSON: 16.2% (12 mins)</title></rect>
+<rect x="491.2" y="36" width="90.88" height="24" fill="#f59e0b"><title>Markdown: 16.0% (12 mins)</title></rect>
+<rect x="582.1" y="36" width="1.93" height="24" fill="#ef4444"><title>C: 0.3% (0 secs)</title></rect>
 </g>
-<text x="205.3" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">66.6%</text>
-<text x="440.0" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">16.0%</text>
-<text x="530.5" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">15.8%</text>
+<text x="207.5" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">67.4%</text>
+<text x="445.1" y="52.0" text-anchor="middle" fill="#fff" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">16.2%</text>
+<text x="536.6" y="52.0" text-anchor="middle" fill="#1f2937" font-size="10" font-family="system-ui,sans-serif" font-weight="600" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards">16.0%</text>
 <rect x="16" y="36" width="568" height="24" fill="none" stroke="#d1d5db" stroke-width="1" rx="4" style="opacity:0;animation:fi 0.3s 2.0s ease-out forwards"/>
 <rect x="16" y="75" width="8" height="8" rx="2" fill="#3b82f6" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards"/>
 <text x="28" y="82" class="sw" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">C++</text>
-<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">66.6%</text>
+<text x="138" y="82" class="sp" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">67.4%</text>
 <text x="178" y="82" class="st" style="opacity:0;animation:fi 0.3s 2.00s ease-out forwards">52 mins</text>
 <rect x="16" y="90" width="8" height="8" rx="2" fill="#10b981" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards"/>
 <text x="28" y="97" class="sw" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">JSON</text>
-<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">16.0%</text>
+<text x="138" y="97" class="sp" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">16.2%</text>
 <text x="178" y="97" class="st" style="opacity:0;animation:fi 0.3s 2.20s ease-out forwards">12 mins</text>
 <rect x="16" y="105" width="8" height="8" rx="2" fill="#f59e0b" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards"/>
 <text x="28" y="112" class="sw" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">Markdown</text>
-<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">15.8%</text>
+<text x="138" y="112" class="sp" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">16.0%</text>
 <text x="178" y="112" class="st" style="opacity:0;animation:fi 0.3s 2.40s ease-out forwards">12 mins</text>
 <rect x="16" y="120" width="8" height="8" rx="2" fill="#ef4444" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards"/>
-<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">Java</text>
-<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">1.2%</text>
+<text x="28" y="127" class="sw" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">C</text>
+<text x="138" y="127" class="sp" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0.3%</text>
 <text x="178" y="127" class="st" style="opacity:0;animation:fi 0.3s 2.60s ease-out forwards">0 secs</text>
-<rect x="16" y="135" width="8" height="8" rx="2" fill="#8b5cf6" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards"/>
-<text x="28" y="142" class="sw" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">C</text>
-<text x="138" y="142" class="sp" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0.3%</text>
-<text x="178" y="142" class="st" style="opacity:0;animation:fi 0.3s 2.80s ease-out forwards">0 secs</text>
 </svg>
